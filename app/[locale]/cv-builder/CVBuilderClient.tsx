@@ -27,7 +27,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
-import { Mistral } from 'mistralai';
+import { Mistral } from '@mistralai/mistralai';
 
 interface Education {
   id: string;

@@ -12,7 +12,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Mistral } from 'mistralai';
+import { Mistral } from '@mistralai/mistralai';
 import { useState } from 'react';
 
 export default function GuidePage({ params }: { params: Promise<{ id: string }> }) {
