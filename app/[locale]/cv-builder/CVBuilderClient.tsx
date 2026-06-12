@@ -188,6 +188,32 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
   };
 
 
+  const downloadPDF = async () => {
+    if (!cvRef.current) return;
+    setIsGenerating(true);
+    
+    try {
+      const canvas = await html2canvas(cvRef.current, {
+        scale: 2,
+        useCORS: true,
+        logging: false,
+        backgroundColor: '#ffffff'
+      });
+      
+      const imgData = canvas.toDataURL('image/png');
+      const pdf = new jsPDF('p', 'mm', 'a4');
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+      
+      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+      pdf.save(`CV_${data.personalInfo.fullName.replace(/\s+/g, '_') || 'Builder'}.pdf`);
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+    } finally {
+      setIsGenerating(false);
+    }
+  };
+
   return (
     <main className="min-h-screen bg-brand-50">
       <Navbar />
