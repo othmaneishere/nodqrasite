@@ -111,19 +111,48 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
     }
   };
 
-  const downloadPDF = async () => {
-    if (!cvRef.current) return;
-    setIsGenerating(true);
-    try {
-      const canvas = await html2canvas(cvRef.current, { scale: 2, useCORS: true });
-      const imgData = canvas.toDataURL('image/png');
-      const pdf = new jsPDF('p', 'mm', 'a4');
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
-      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
-      pdf.save(`CV_${data.personalInfo.fullName.replace(/\s+/g, '_') || 'CV'}.pdf`);
-    } catch (error) { console.error(error); } finally { setIsGenerating(false); }
+  const handleEducationChange = (id: string, field: keyof Education, value: string) => {
+    setData(prev => ({
+      ...prev,
+      education: prev.education.map(edu => edu.id === id ? { ...edu, [field]: value } : edu)
+    }));
   };
+
+  const addEducation = () => {
+    setData(prev => ({
+      ...prev,
+      education: [...prev.education, { id: Math.random().toString(), school: '', degree: '', date: '' }]
+    }));
+  };
+
+  const removeEducation = (id: string) => {
+    setData(prev => ({
+      ...prev,
+      education: prev.education.filter(edu => edu.id !== id)
+    }));
+  };
+
+  const handleExperienceChange = (id: string, field: keyof Experience, value: string) => {
+    setData(prev => ({
+      ...prev,
+      experience: prev.experience.map(exp => exp.id === id ? { ...exp, [field]: value } : exp)
+    }));
+  };
+
+  const addExperience = () => {
+    setData(prev => ({
+      ...prev,
+      experience: [...prev.experience, { id: Math.random().toString(), company: '', role: '', date: '', description: '' }]
+    }));
+  };
+
+  const removeExperience = (id: string) => {
+    setData(prev => ({
+      ...prev,
+      experience: prev.experience.filter(exp => exp.id !== id)
+    }));
+  };
+
 
   return (
     <main className="min-h-screen bg-brand-50">
@@ -150,16 +179,52 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
             </div>
 
             <div ref={cvRef} className="bg-white p-12 rounded-xl border border-brand-200">
-              <h1 className="text-3xl font-bold">{data.personalInfo.fullName || 'Name'}</h1>
-              <p className="text-xl text-brand-600">{data.personalInfo.jobTitle || 'Title'}</p>
-              <div className="mt-8 space-y-4">
-                <h2 className="text-lg font-bold border-b">Summary</h2>
-                <p>{data.personalInfo.summary || 'Summary...'}</p>
-                <h2 className="text-lg font-bold border-b">Experience</h2>
-                <p>{data.experience[0].description || 'Experience...'}</p>
-                <h2 className="text-lg font-bold border-b">Skills</h2>
-                <p>{data.skills || 'Skills...'}</p>
+              <header className="mb-8 border-b-2 border-brand-900 pb-6 flex justify-between items-start">
+                <div>
+                  <h1 className="text-3xl font-bold uppercase tracking-tight">{data.personalInfo.fullName || 'Kamal Alami'}</h1>
+                  <p className="text-lg font-medium text-brand-600 mt-1 uppercase tracking-wider">{data.personalInfo.jobTitle || 'Your Title'}</p>
+                </div>
+                <div className="text-right rtl:text-left space-y-1 text-xs">
+                  <p>{data.personalInfo.email || 'email@example.com'}</p>
+                  <p>{data.personalInfo.phone || '+212 600 000 000'}</p>
+                  <p>{data.personalInfo.location || 'City, Morocco'}</p>
+                </div>
+              </header>
+
+              <div className="mt-8 space-y-8">
+                <section>
+                  <h2 className="text-lg font-bold border-b border-brand-900 mb-2">Professional Summary</h2>
+                  <p className="text-brand-800">{data.personalInfo.summary || 'Summary of your background...'}</p>
+                </section>
+                
+                <section>
+                  <h2 className="text-lg font-bold border-b border-brand-900 mb-2">Experience</h2>
+                  {data.experience.map(exp => (
+                    <div key={exp.id} className="mb-4">
+                      <h3 className="font-bold">{exp.role || 'Role'} - {exp.company || 'Company'}</h3>
+                      <p className="text-sm text-brand-500">{exp.date || 'Date'}</p>
+                      <p className="text-sm">{exp.description || 'Description...'}</p>
+                    </div>
+                  ))}
+                </section>
+                
+                <section>
+                  <h2 className="text-lg font-bold border-b border-brand-900 mb-2">Education</h2>
+                  {data.education.map(edu => (
+                    <div key={edu.id} className="mb-2">
+                      <h3 className="font-bold">{edu.degree || 'Degree'}</h3>
+                      <p className="text-sm">{edu.school || 'School'} - {edu.date || 'Date'}</p>
+                    </div>
+                  ))}
+                </section>
+                
+                <section>
+                  <h2 className="text-lg font-bold border-b border-brand-900 mb-2">Skills & Languages</h2>
+                  <p className="text-sm">Skills: {data.skills || 'Skills...'}</p>
+                  <p className="text-sm">Languages: {data.languages || 'Languages...'}</p>
+                </section>
               </div>
+
               <button onClick={downloadPDF} className="mt-8 px-6 py-3 bg-brand-950 text-white rounded-xl">
                 {t('CVMaker.download')}
               </button>
