@@ -80,6 +80,36 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
     { key: 'languages', section: 'languages', question: 'Which languages do you speak and at what level?' }
   ];
 
+  const polishWithAI = async (rawData: CVData) => {
+    setIsTyping(true);
+    setMessages(prev => [...prev, { role: 'assistant', content: 'Polishing your CV to look professional and ATS-ready...' }]);
+    
+    try {
+      const client = new Mistral({ apiKey: process.env.NEXT_PUBLIC_MISTRAL_API_KEY });
+      const response = await client.chat.complete({
+        model: "mistral-large-latest",
+        messages: [{
+          role: "user",
+          content: `You are an expert CV writer. Improve the following CV data for an ATS-optimized, professional look. 
+          Capitalize properly, improve grammar, make descriptions punchy and impact-oriented.
+          Return ONLY the improved JSON object with the exact same structure as input.
+          CV DATA: ${JSON.stringify(rawData)}`
+        }],
+        responseFormat: { type: "json_object" }
+      });
+      
+      if (response.choices?.[0]?.message?.content) {
+        const polishedData = JSON.parse(response.choices[0].message.content as string);
+        setData(polishedData);
+      }
+    } catch (error) {
+      console.error('AI Polishing failed:', error);
+    } finally {
+      setIsTyping(false);
+      setActiveTab('preview');
+    }
+  };
+
   const handleSendMessage = async (userAnswer: string) => {
     const newUserMessage = { role: 'user' as const, content: userAnswer };
     setMessages(prev => [...prev, newUserMessage]);
@@ -87,17 +117,21 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
 
     // Update data object based on current step
     const currentStep = steps[activeStep];
+    let newData = { ...data };
+
     if (currentStep.section === 'personalInfo') {
-      setData(prev => ({ ...prev, personalInfo: { ...prev.personalInfo, [currentStep.key]: userAnswer } }));
+      newData.personalInfo = { ...newData.personalInfo, [currentStep.key]: userAnswer };
     } else if (currentStep.section === 'experience') {
-      setData(prev => ({ ...prev, experience: [{ id: '1', company: 'Extracted', role: 'Extracted', date: 'Extracted', description: userAnswer }] }));
+      newData.experience = [{ id: '1', company: 'Extracted', role: 'Extracted', date: 'Extracted', description: userAnswer }];
     } else if (currentStep.section === 'education') {
-      setData(prev => ({ ...prev, education: [{ id: '1', school: 'Extracted', degree: 'Extracted', date: userAnswer }] }));
+      newData.education = [{ id: '1', school: 'Extracted', degree: 'Extracted', date: userAnswer }];
     } else if (currentStep.key === 'skills') {
-      setData(prev => ({ ...prev, skills: userAnswer }));
+      newData.skills = userAnswer;
     } else if (currentStep.key === 'languages') {
-      setData(prev => ({ ...prev, languages: userAnswer }));
+      newData.languages = userAnswer;
     }
+    
+    setData(newData);
     
     if (activeStep < steps.length - 1) {
       setActiveStep(prev => prev + 1);
@@ -106,8 +140,7 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
         setIsTyping(false);
       }, 500);
     } else {
-      setIsTyping(false);
-      setActiveTab('preview');
+      await polishWithAI(newData);
     }
   };
 
