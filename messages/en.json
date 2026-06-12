@@ -1,0 +1,230 @@
+{
+  "Index": {
+    "title": "NodQra",
+    "metadata": {
+      "title": "NodQra | Master Adulting in Morocco",
+      "description": "The simple and practical guide for young Moroccans to master career, administration, and life skills."
+    },
+    "hero": {
+      "badge": "The #1 practical guide for Moroccan youth",
+      "title": "School didn’t teach you this. <br /> <span class=\"text-brand-600\">We will.</span>",
+      "description": "Master the essential skills for adulting in Morocco: from landing your first job to navigating the administration and mastering your mindset.",
+      "cta": "Build my life plan",
+      "learnMore": "Learn more"
+    },
+    "stats": {
+      "moroccoFirst": "MOROCCO FIRST",
+      "verifiedInfo": "VERIFIED INFO",
+      "students": "10K+ STUDENTS",
+      "fastTrack": "FAST TRACK"
+    },
+    "categories": {
+      "title": "What do you want to <br /> <span class=\"text-brand-600\">master today?</span>",
+      "description": "Choose a category and start building your future. No fluff, just practical steps tailored for the Moroccan reality."
+    },
+    "why": {
+      "title": "Why we built <br /> <span class=\"text-brand-600\">NodQra.</span>",
+      "community": "Community Driven",
+      "communityDesc": "Built by Moroccans for Moroccans.",
+      "verified": "Verified Info",
+      "verifiedDesc": "Every guide is checked for accuracy.",
+      "practical": "Practical Steps",
+      "practicalDesc": "No theory, just action items.",
+      "topRated": "Top Rated",
+      "topRatedDesc": "The #1 resource for adulting.",
+      "description1": "We noticed a huge gap between what we learn in school and what we need to survive and thrive in the real world. Especially in Morocco, where administrative tasks can be complex and the job market is competitive.",
+      "description2": "Our mission is to democratize this \"hidden knowledge\" and give every young Moroccan the tools they need to succeed, regardless of their background.",
+      "team": "The NodQra Team",
+      "location": "Casablanca, Morocco"
+    },
+    "cta": {
+      "title": "Ready to take <br /> <span class=\"text-brand-600\">control?</span>",
+      "description": "Join thousands of Moroccans who are mastering their future today. It's free, practical, and built for you.",
+      "button": "Build my life plan"
+    }
+  },
+  "Navbar": {
+    "home": "Home",
+    "categories": "Categories",
+    "about": "About",
+    "join": "Join Us"
+  },
+  "Footer": {
+    "description": "Empowering Moroccan youth with the practical knowledge they need to thrive in the real world.",
+    "links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "All rights reserved.",
+    "resources": "Resources",
+    "work": "Work",
+    "admin": "Admin",
+    "health": "Health",
+    "study": "Study",
+    "company": "Company",
+    "about": "About",
+    "mission": "Mission",
+    "contact": "Contact",
+    "join": "Join Us",
+    "stayUpdated": "Stay Updated",
+    "newsletterDesc": "Get the latest guides and tips delivered to your inbox.",
+    "emailPlaceholder": "Your email address",
+    "joinButton": "Join"
+  },
+  "Common": {
+    "readGuide": "Read Guide",
+    "backToHome": "Back to Home",
+    "minRead": "{minutes} min read",
+    "exploreOther": "Explore other categories",
+    "exploreOtherDesc": "There is so much more to learn about adulting in Morocco.",
+    "home": "Home"
+  },
+  "Categories": {
+    "work": {
+      "title": "Work & Career",
+      "description": "Master the job market from your first CV to your first promotion.",
+      "explore": "Explore all guides",
+      "guides": {
+        "cv-writing": "How to write a CV",
+        "cv-writing-desc": "A comprehensive guide to creating a professional CV that stands out in the Moroccan market.",
+        "cv-writing-content": "\n### 1. The Header: Your Digital Business Card\nYour header should be clean and professional. Include:\n* **Full Name:** Use a slightly larger font.\n* **Professional Title:** e.g., \"Junior Marketing Specialist\" or \"Software Engineering Student\".\n* **Contact Info:** A professional email (firstname.lastname@email.com), your phone number, and your city.\n* **LinkedIn Profile:** Ensure your profile is up-to-date before linking it.\n\n### 2. The Professional Summary\nThis is your \"elevator pitch\". In 3-4 sentences, highlight your background, your key skills, and what you're looking for. \n*Example:* \"Final-year Finance student with a passion for data analysis. Experienced in financial modeling through a 3-month internship at BMCE. Seeking to leverage my analytical skills in a Junior Analyst role.\"\n\n### 3. Experience: Focus on Impact\nDon't just list tasks; list achievements. Use action verbs like \"Managed\", \"Developed\", \"Increased\", or \"Organized\".\n* **Format:** Role, Company, Location, Dates (Month/Year).\n* **Bullet Points:** Use 3-5 bullets per role. *Instead of \"Managed social media\", say \"Increased Instagram engagement by 25% over 4 months through targeted content strategy.\"\n\n### 4. Education & Certifications\nList your degrees in reverse chronological order. Mention your \"Mention\" if it's good, and highlight relevant coursework or projects. Don't forget online certifications (Coursera, LinkedIn Learning) that show initiative.\n\n### 5. Skills: Hard vs. Soft\n* **Hard Skills:** Software (Excel, Photoshop), Languages (Arabic, French, English - be honest about levels), Technical tools.\n* **Soft Skills:** Communication, Teamwork, Problem-solving. Show, don't just tell (e.g., \"Led a team of 5 for a university project\").\n\n### 6. Common Moroccan CV Mistakes to Avoid\n* **Photos:** Only include a photo if specifically requested or if it's standard in your industry. If you do, use a professional headshot with a neutral background.\n* **Length:** Keep it to one page if you have less than 5 years of experience.\n* **File Format:** Always send as a PDF named \"CV_FirstName_LastName.pdf\".",
+        "job-application": "How to apply for jobs",
+        "job-application-desc": "Strategic advice on where to look and how to stand out in the Moroccan job market.",
+        "job-application-content": "### 1. Top Platforms in Morocco\n* **LinkedIn:** The gold standard. Follow Moroccan companies, join groups, and engage with recruiters.\n* **ReKrute.com:** The leading job board for executives and white-collar roles in Morocco.\n* **Emploi.ma:** Great for a wide variety of roles across different sectors.\n* **Anapec:** Essential for state-subsidized roles and entry-level positions.\n\n### 2. The Power of Networking\nIn Morocco, many jobs are filled through the \"hidden job market\".\n* **Informational Interviews:** Reach out to professionals in your field for a 15-minute \"coffee chat\" (virtual or in-person) to learn about their career path.\n* **Alumni Networks:** Connect with graduates from your school or university.\n* **Events:** Attend industry webinars, workshops, and job fairs (like those organized by l'Étudiant).\n\n### 3. Tailoring Your Application\nNever use the same CV and cover letter for every job.\n* **Keywords:** Read the job description carefully and mirror the language they use.\n* **The Cover Letter (Lettre de Motivation):** Address it to a specific person if possible. Explain *why* you want to work for *that* specific company and how you solve their specific problems.\n\n### 4. Follow-Up Etiquette\nIf you haven't heard back after a week, it's perfectly acceptable to send a polite follow-up email or LinkedIn message. It shows persistence and genuine interest.",
+        "interview-basics": "Interview basics",
+        "interview-basics-desc": "Master the art of the interview with these proven techniques and common Moroccan questions.",
+        "interview-basics-content": "### 1. Preparation is 90% of Success\n* **Research the Company:** Know their products, their recent news, and their values. Check their LinkedIn page and website.\n* **Understand the Role:** Be ready to explain how your skills align with every point in the job description.\n* **Prepare Your \"Story\":** Have 3-4 \"success stories\" ready using the STAR method (Situation, Task, Action, Result).\n\n### 2. Common Questions & How to Answer\n* **\"Présentez-vous\" (Tell me about yourself):** Keep it professional. Focus on your past (education/experience), present (current role/status), and future (why you want this job).\n* **\"Pourquoi notre entreprise ?\" (Why us?):** Mention something specific you admire about them (e.g., their innovation, their market position, their CSR initiatives).\n* **\"Vos qualités et défauts\" (Strengths and weaknesses):** For weaknesses, choose something real but fixable, and explain how you're working on it.\n* **\"Prétentions salariales\" (Salary expectations):** Research the market rate for the role in Morocco beforehand. It's often better to give a range.\n\n### 3. Non-Verbal Communication\n* **Dress Code:** Aim for \"one level above\" the daily office wear. For most Moroccan offices, business casual or formal is expected.\n* **Punctuality:** Arrive 10-15 minutes early. In Morocco, being \"on time\" often means being early for an interview.\n* **Body Language:** Maintain good eye contact, sit up straight, and offer a firm (but not crushing) handshake.\n\n### 4. Closing the Interview\nAlways have 2-3 questions ready for the interviewer. It shows you're thinking deeply about the role.\n*Example:* \"What does success look like in this role after 6 months?\" or \"How would you describe the team culture?\""
+      }
+    },
+    "admin": {
+      "title": "Administration",
+      "description": "The \"boring\" stuff that actually runs your life. Simplified.",
+      "explore": "Explore all guides",
+      "guides": {
+        "cnss-guide": "How to get CNSS",
+        "cnss-guide-desc": "A complete guide to social security, healthcare (AMO), and your rights as a Moroccan worker.",
+        "cnss-guide-content": "### 1. What is CNSS?\nThe Caisse Nationale de Sécurité Sociale (CNSS) is the body responsible for managing social security for private-sector employees in Morocco. It provides coverage for illness (AMO), maternity, disability, and retirement.\n\n### 2. How to Register\nUsually, your employer is responsible for registering you. Once registered, you will receive a registration number (numéro d'immatriculation).\n* **The Card:** You will receive a physical CNSS card. Keep it safe; you'll need it for medical claims.\n* **MaCNSS Portal:** Download the MaCNSS app or use the website to track your \"points\" (days worked) and check the status of your medical reimbursements.\n\n### 3. Understanding AMO (Assurance Maladie Obligatoire)\nAMO is the mandatory health insurance part of CNSS.\n* **Coverage:** It covers a significant portion of medical consultations, hospitalizations, and medications.\n* **Claims:** When you visit a doctor or buy medicine, you'll need to fill out a \"Feuille de Soins\" and submit it to a CNSS agency or an approved \"Bureaux de proximité\" (like Cash Plus or Chaabi Cash).\n\n### 4. Why it Matters\nCNSS isn't just about the future (retirement); it's about your immediate security. It ensures that if you get sick or have an accident, you won't face financial ruin. Always ensure your employer is declaring your full salary.",
+        "bank-account": "Open a bank account",
+        "bank-account-desc": "Navigate the Moroccan banking system, compare offers, and understand your digital options.",
+        "bank-account-content": "### 1. Choosing the Right Bank\nMajor banks in Morocco include Attijariwafa Bank, BCP (Banque Populaire), BMCE (Bank of Africa), and CIH Bank.\n* **Standard Accounts:** Good for basic needs, but watch out for monthly maintenance fees.\n* **Youth Offers:** Many banks have special \"Pack\" offers for students and young professionals (e.g., CIH's Code 30) with zero or very low fees.\n\n### 2. Documents Needed\nTo open an account, you typically need:\n* A copy of your CIN (Carte d'Identité Nationale).\n* An \"Attestation de travail\" or \"Certificat de scolarité\".\n* A small initial deposit (sometimes not required for youth accounts).\n\n### 3. Digital Banking & E-commerce\n* **Mobile Apps:** Most Moroccan banks now have excellent apps for transfers, bill payments, and tracking spending.\n* **Dotation E-commerce:** If you want to buy things from international sites (Netflix, Amazon, AliExpress), you need to activate your \"Dotation E-commerce\" (usually limited to 15,000 MAD per year).\n* **Online Agencies:** Some banks offer \"L'agence en ligne\" where you can do almost everything without visiting a physical branch.\n\n### 4. Fees to Watch Out For\n* **Tenue de compte:** Monthly or quarterly maintenance fees.\n* **Frais de retrait:** Fees for using an ATM from a different bank.\n* **Commission de change:** Fees for international transactions.",
+        "read-contract": "How to read a contract",
+        "read-contract-desc": "Essential knowledge on Moroccan labor law, contract types, and what to check before you sign.",
+        "read-contract-content": "### 1. Types of Contracts in Morocco\n* **CDI (Contrat à Durée Indéterminée):** The \"holy grail\". A permanent contract with no end date. Offers the most security.\n* **CDD (Contrat à Durée Déterminée):** A fixed-term contract (e.g., 6 months or 1 year). Can be renewed, but there are legal limits.\n* **Contrat ANAPEC:** A subsidized training-insertion contract. Often used for first-time job seekers. Note that social security (CNSS) is mandatory, but retirement contributions might differ.\n\n### 2. Key Clauses to Check\n* **The Trial Period (Période d'essai):** During this time, either you or the employer can end the contract with very short notice. Know how long yours is.\n* **Job Description:** Ensure the tasks listed match what was discussed in the interview.\n* **Salary & Benefits:** Check the \"Salaire Brut\" vs \"Salaire Net\". Confirm bonuses, transport allowances, and health insurance (mutuelle).\n* **Working Hours:** Standard is 44 hours per week in the private sector.\n\n### 3. The \"Legalization\" Process\nIn Morocco, your signature on the contract must be \"Légalisée\" at the local Muqata'a. This gives the document legal weight.\n\n### 4. Your Rights\nFamiliarize yourself with the \"Code du Travail\". You have a right to paid leave (usually 1.5 days per month worked), a safe working environment, and protection against unfair dismissal.",
+        "visa-basics": "Visa basics",
+        "visa-basics-desc": "A practical starting point for Moroccans planning to travel or study abroad.",
+        "visa-basics-content": "### 1. The Schengen Visa (Europe)\nThe most common visa for Moroccans. It allows travel within 27 European countries.\n* **Where to Apply:** Usually through TLSContact or VFS Global, depending on the country (France, Spain, Italy, etc.).\n* **The \"Rendez-vous\":** Getting an appointment is often the hardest part. Plan months in advance.\n\n### 2. Essential Documents\n* **Passport:** Must be valid for at least 6 months.\n* **Proof of Funds:** Recent bank statements (relevés bancaires) are crucial. They want to see a stable income and enough savings for your trip.\n* **Professional Status:** \"Attestation de travail\", \"Bulletins de paie\", and \"Attestation de déclaration de salaire\" (CNSS).\n* **Travel Insurance:** Must cover at least 30,000 EUR in medical expenses.\n\n### 3. Common Pitfalls\n* **Incomplete Files:** Even one missing document can lead to an immediate rejection.\n* **Unclear Purpose:** Be very clear about why you are traveling (tourism, business, family visit).\n* **Fake Documents:** Never, ever use fake documents. It will lead to a permanent ban.\n\n### 4. Other Destinations\n* **Turkey:** Currently requires an e-visa or sticker visa for Moroccans depending on age/status.\n* **Visa-Free:** Countries like Senegal, Tunisia, and Brazil allow Moroccans to enter with just a passport (always check current rules)."
+      }
+    },
+    "emotions": {
+      "title": "Life & Emotions",
+      "description": "Mental tools to stay sharp and balanced in a busy world.",
+      "explore": "Explore all guides",
+      "guides": {
+        "stress-management": "Dealing with stress",
+        "stress-management-desc": "Practical, science-based techniques tailored for the modern Moroccan student and worker.",
+        "stress-management-content": "### 1. Identify Your Triggers\nIs it exams? Deadlines? Family expectations? Traffic in Casablanca? Once you know the \"what\", you can tackle the \"how\".\n\n### 2. The \"Big Three\" of Stress Relief\n* **Sleep (Sommeil):** Aim for 7-8 hours. Your brain needs this time to process emotions and clear toxins.\n* **Movement (Sport):** Even a 20-minute walk can significantly lower cortisol levels.\n* **Organization:** A messy desk or a vague to-do list creates mental \"noise\". Use tools like Trello or a simple paper planner.\n\n### 3. Quick Techniques for High-Stress Moments\n* **Box Breathing:** Inhale for 4, hold for 4, exhale for 4, hold for 4. Repeat 3 times.\n* **The 5-4-3-2-1 Grounding Technique:** Name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, and 1 you can taste.\n* **Time Blocking:** Dedicate specific hours to specific tasks. When you're working, work. When you're resting, rest.\n\n### 4. Knowing When to Say \"No\"\nIn our culture, we often feel pressured to please everyone. Learning to set boundaries is a vital skill for your mental health.",
+        "discipline": "Building Discipline",
+        "discipline-desc": "Move beyond fleeting motivation and build the consistent habits that lead to long-term success.",
+        "discipline-content": "### 1. Motivation vs. Discipline\nMotivation is a feeling; it comes and goes. Discipline is a system; it stays. Don't wait until you \"feel like it\" to start.\n\n### 2. The Power of Small Habits\n* **The 2-Minute Rule:** If a new habit takes less than 2 minutes, do it now. Want to start reading? Read one page. Want to exercise? Put on your gym shoes.\n* **Habit Stacking:** Attach a new habit to an existing one. \"After I have my morning coffee, I will write down my 3 main goals for the day.\"\n\n### 3. Environment Design\nMake the good habits easy and the bad habits hard.\n* **Want to study?** Put your phone in another room.\n* **Want to eat healthier?** Keep fruit on the counter and hide the snacks.\n\n### 4. Deep Work\nIn an age of constant notifications, the ability to focus intensely on a difficult task is a superpower. Try the Pomodoro technique: 25 minutes of focused work, followed by a 5-minute break.",
+        "self-confidence": "Boosting Self-Confidence",
+        "self-confidence-desc": "Strategies to overcome imposter syndrome and build a resilient sense of self-worth.",
+        "self-confidence-content": "### 1. Understanding Imposter Syndrome\nThat feeling that you're a \"fraud\" and people will eventually find out? It's incredibly common, especially among high achievers. Acknowledge it, but don't let it drive the car.\n\n### 2. The Growth Mindset\nInstead of saying \"I'm not good at this,\" say \"I'm not good at this *yet*\". View challenges as opportunities to learn rather than threats to your ego.\n\n### 3. Celebrate Small Wins\nWe often wait for the \"big\" promotion or graduation to feel proud. Start celebrating the small stuff: finishing a difficult book, helping a colleague, or sticking to your workout for a week.\n\n### 4. Curate Your Circle\nThe people you spend time with (and the accounts you follow on social media) significantly impact your self-image. Surround yourself with people who challenge you to grow but also support you when you fail.",
+        "mental-health-awareness": "Mental Health Awareness",
+        "mental-health-awareness-desc": "Breaking the stigma, understanding common challenges, and knowing how to find support in Morocco.",
+        "mental-health-awareness-content": "### 1. Breaking the Stigma\nMental health is just as important as physical health. Feeling anxious or depressed is not a sign of weakness or a lack of faith; it's a human experience that deserves attention.\n\n### 2. Common Challenges\n* **Anxiety:** Excessive worry that interferes with daily life.\n* **Depression:** Persistent sadness, loss of interest, and low energy.\n* **Burnout:** Physical and emotional exhaustion caused by prolonged stress.\n\n### 3. Where to Find Help in Morocco\n* **Psychologues:** Professionals who provide talk therapy (non-medical).\n* **Psychiatres:** Medical doctors who can diagnose and prescribe medication if needed.\n* **Online Resources:** Platforms like \"L'Heure Joyeuse\" or international apps like Headspace/Calm can be a good starting point.\n\n### 4. Supporting Others\nIf a friend is struggling, the best thing you can do is listen without judgment. You don't need to have all the answers; just being there makes a difference."
+      }
+    },
+    "study": {
+      "title": "Study & Skills",
+      "description": "Learn how to learn. The ultimate competitive advantage.",
+      "explore": "Explore all guides",
+      "guides": {
+        "study-efficiently": "Study efficiently",
+        "study-efficiently-desc": "Stop the \"bourrage de crâne\" and start using science-backed learning techniques.",
+        "study-efficiently-content": "### 1. Active Recall\nDon't just re-read your notes. Close the book and try to explain the concept out loud or write down everything you remember. This forces your brain to \"retrieve\" the info, which makes it stick.\n\n### 2. Spaced Repetition\nInstead of cramming for 10 hours in one day, study for 1 hour over 10 days. Review the material at increasing intervals (1 day later, 3 days later, 1 week later). Tools like Anki or Quizlet are great for this.\n\n### 3. The Feynman Technique\nTry to explain a complex topic to a 10-year-old. If you can't explain it simply, you don't understand it well enough. This will highlight the gaps in your knowledge.\n\n### 4. Mind Mapping\nFor subjects with many connections (like History or Biology), use mind maps to visualize how different concepts relate to each other. It's much more effective than linear notes.",
+        "digital-skills": "Basic digital skills",
+        "digital-skills-desc": "Master the essential software and AI tools that are required in every modern workplace.",
+        "digital-skills-content": "### 1. The \"Office\" Essentials\n* **Google Docs/Word:** Learn how to use styles, headers, and automatic tables of contents.\n* **Google Sheets/Excel:** Master basic formulas (SUM, AVERAGE, VLOOKUP) and how to create clean charts.\n* **PowerPoint/Slides:** Focus on \"less is more\". Use high-quality images and minimal text.\n\n### 2. AI Prompting 101\nTools like ChatGPT or Mistral are powerful assistants if you know how to use them.\n* **Be Specific:** Instead of \"Write an email,\" say \"Write a professional follow-up email to a recruiter after a job interview for a Marketing role.\"\n* **Give Context:** Tell the AI who you are and what your goal is.\n\n### 3. File Management\nOrganize your digital life. Use clear folder structures and descriptive file names (e.g., \"History_Project_Draft_V1.pdf\" instead of \"document123.pdf\"). Use cloud storage (Google Drive, OneDrive) so you never lose your work.\n\n### 4. Typing Speed\nIt sounds basic, but being able to type quickly and accurately without looking at the keyboard will save you hundreds of hours over your career. Use free sites like 10FastFingers to practice."
+      }
+    },
+    "relationships": {
+      "title": "Relationships & Family",
+      "description": "Navigating the complex social and familial dynamics of modern Moroccan life.",
+      "explore": "Explore all guides",
+      "guides": {
+        "parent-communication": "Talking to your parents",
+        "parent-communication-desc": "How to bridge the generational gap, express your needs, and build mutual trust.",
+        "parent-communication-content": "### 1. Choose the Right Moment\nDon't bring up a difficult topic when they are tired, stressed, or watching the news. Wait for a calm moment where you can have their full attention.\n\n### 2. The \"Proof of Maturity\"\nParents often worry because they want to protect you. Show them you are responsible through your actions, not just your words. If you want more freedom, show you can handle your current responsibilities (studies, chores, etc.).\n\n### 3. Use \"I\" Statements\nInstead of \"You never let me go out,\" try \"I feel like I've been working hard on my studies and I would really value some time to relax with my friends this weekend.\" It's less accusatory and more about your feelings.\n\n### 4. Active Listening\nCommunication is a two-way street. Try to understand *their* concerns. Ask questions like, \"What are you worried will happen if I do this?\" Once you understand their fear, you can address it directly.",
+        "peer-pressure": "Handling Peer Pressure",
+        "peer-pressure-desc": "Staying true to your values and goals while maintaining healthy friendships.",
+        "peer-pressure-content": "### 1. Know Your Values\nWhat is truly important to you? Your health? Your studies? Your integrity? When you are clear on your values, it's much easier to say \"no\" to things that contradict them.\n\n### 2. The Power of \"No\"\nYou don't always need a long explanation. A simple \"No thanks, I'm not into that\" or \"I've got other plans\" is often enough. Real friends will respect your boundaries.\n\n### 3. Identifying Toxic Behavior\nIf your \"friends\" constantly belittle you, pressure you into dangerous situations, or only want to be around you when you're doing what they want, they might not be true friends.\n\n### 4. Finding Your Tribe\nSeek out people who share your interests and goals. Whether it's a sports club, a coding group, or a volunteer organization, being around like-minded people makes it much easier to stay on track."
+      }
+    },
+    "digital": {
+      "title": "Digital Life",
+      "description": "Master the tools of the digital age while staying safe, private, and balanced.",
+      "explore": "Explore all guides",
+      "guides": {
+        "online-safety": "Online Safety 101",
+        "online-safety-desc": "Essential practices to protect your data, your privacy, and your mental well-being online.",
+        "online-safety-content": "### 1. Password Hygiene\n* **Use a Password Manager:** Tools like Bitwarden or LastPass help you create and store complex, unique passwords.\n* **Enable 2FA (Two-Factor Authentication):** This is the single most important step you can take. Even if someone gets your password, they can't get into your account without the code from your phone.\n\n### 2. Spotting Phishing & Scams\nIf an offer seems too good to be true (e.g., \"You've won a new iPhone!\"), it probably is. Never click on suspicious links in emails or SMS, especially those asking for your bank details.\n\n### 3. Privacy Settings\nRegularly review the privacy settings on your social media accounts (Instagram, Facebook, TikTok). Be mindful of what you share publicly, especially your location or personal contact info.\n\n### 4. Dealing with Cyber-harcèlement\nIf you are being harassed online, don't stay silent. Block the person, save screenshots as evidence, and talk to a trusted adult or friend. In Morocco, there are legal protections against digital harassment.",
+        "social-media-balance": "Social Media Balance",
+        "social-media-balance-desc": "Strategies to use social media intentionally without letting it control your time or mood.",
+        "social-media-balance-content": "### 1. The Comparison Trap\nRemember that social media is a \"highlight reel\". People rarely post their failures, their bad hair days, or their boring moments. Don't compare your \"behind-the-scenes\" to their \"on-stage\".\n\n### 2. Curate Your Feed\nIf an account consistently makes you feel bad about yourself, unfollow or mute it. Follow accounts that inspire you, teach you something new, or make you laugh.\n\n### 3. Set Digital Boundaries\n* **No Phones in Bed:** The blue light interferes with your sleep, and the late-night scrolling can lead to anxiety.\n* **Use App Limits:** Both iOS and Android have built-in tools to limit your time on specific apps.\n* **Digital Detox:** Try a \"screen-free\" Sunday or even just a few hours a day where you put your phone away completely.\n\n### 4. Be a Conscious Creator\nBefore you post, ask yourself: \"Why am I sharing this? Is it helpful? Is it true? Does it reflect who I really am?\""
+      }
+    },
+    "finance": {
+      "title": "Money & Finance",
+      "description": "Build a solid foundation for financial independence with practical Moroccan-focused advice.",
+      "explore": "Explore all guides",
+      "guides": {
+        "saving-pocket-money": "Saving your pocket money",
+        "saving-pocket-money-desc": "Simple habits and systems to help you save for the things that truly matter.",
+        "saving-pocket-money-content": "### 1. The 50/30/20 Rule (Adapted for Teens)\n* **50% for Needs:** School supplies, transport, essential snacks.\n* **30% for Wants:** Going out with friends, that new game, or trendy clothes.\n* **20% for Savings:** Put this away *first* before you spend anything else.\n\n### 2. Set Specific Goals\nIt's much easier to save when you're saving *for* something. Whether it's a new laptop, a trip, or just an \"emergency fund\", give your savings a name.\n\n### 3. Track Your Spending\nFor one month, write down everything you spend. You'll be surprised how much those small daily purchases (like that extra coffee or snack) add up. Use a simple notebook or a free app.\n\n### 4. The \"24-Hour Rule\"\nBefore buying something that isn't a necessity, wait 24 hours. Often, the \"must-have\" feeling will fade, and you'll realize you don't actually need it.",
+        "code-18": "Understanding Code 18",
+        "code-18-desc": "Everything you need to know about opening your first bank account in Morocco as a minor.",
+        "code-18-content": "### 1. What is Code 18?\nCode 18 is a special type of bank account offered by many Moroccan banks (like CIH Bank) specifically for minors (under 18). It's designed to help young people learn to manage money in a safe environment.\n\n### 2. Key Features\n* **No Fees:** Usually, there are zero maintenance or management fees.\n* **Debit Card:** You get a card to withdraw money and pay in stores.\n* **Parental Control:** Your parents or legal guardian must open the account with you and can usually monitor the activity.\n\n### 3. How to Open One\nYou'll need to visit a branch with your father or legal guardian. Bring:\n* Your \"Livret de famille\" or birth certificate.\n* Your guardian's CIN.\n* Your own CIN (if you have one).\n\n### 4. Transitioning to Adulthood\nOnce you turn 18, your Code 18 account usually transitions into a standard youth account (like Code 30), giving you full control and often adding features like international e-commerce payments."
+      }
+    }
+  },
+  "CVMaker": {
+    "title": "Easy CV Builder",
+    "description": "Create a professional CV in minutes. Fill in your details and download as a PDF.",
+    "personalInfo": "Personal Information",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "languages": "Languages",
+    "summary": "Professional Summary",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location (City)",
+    "jobTitle": "Professional Title",
+    "add": "Add",
+    "remove": "Remove",
+    "school": "School / University",
+    "degree": "Degree / Diploma",
+    "date": "Employment Dates (e.g. 2021 - 2023)",
+    "company": "Company Name",
+    "role": "Job Title",
+    "descInput": "Responsibilities & Achievements",
+    "download": "Download PDF",
+    "preview": "Live Preview",
+    "skillsPlaceholder": "e.g., Photoshop, Excel, Teamwork",
+    "languagesPlaceholder": "e.g., Arabic (Native), English (Fluent)",
+    "cta": "Build Your CV Now",
+    "aiAssistant": {
+      "title": "AI Assistant",
+      "description": "Analyze your CV against a job description to get tailored improvements and key skills suggestions.",
+      "jobDescLabel": "Target Job Description",
+      "jobDescPlaceholder": "Paste the job description you're applying for here...",
+      "analyze": "Analyze and Suggest",
+      "analyzing": "Generating insights...",
+      "improvements": "Suggested Improvements",
+      "keywords": "Target Keywords to Include",
+      "noResults": "Enter a job description to get tailored AI suggestions for your CV."
+    }
+  }
+}

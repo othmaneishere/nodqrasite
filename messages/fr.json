@@ -1,0 +1,230 @@
+{
+  "Index": {
+    "title": "NodQra",
+    "metadata": {
+      "title": "NodQra | Maîtrisez la vie d'adulte au Maroc",
+      "description": "Le guide simple et pratique pour les jeunes Marocains pour maîtriser leur carrière, l'administration et les compétences de vie."
+    },
+    "hero": {
+      "badge": "Le guide pratique n°1 pour la jeunesse marocaine",
+      "title": "L'école ne vous a pas appris cela. <br /> <span class=\"text-brand-600\">Nous le ferons.</span>",
+      "description": "Maîtrisez les compétences essentielles pour la vie au Maroc : de l'obtention de votre premier emploi à la navigation dans l'administration et à la maîtrise de votre état d'esprit.",
+      "cta": "Construire mon plan de vie",
+      "learnMore": "En savoir plus"
+    },
+    "stats": {
+      "moroccoFirst": "MAROC D'ABORD",
+      "verifiedInfo": "INFOS VÉRIFIÉES",
+      "students": "10K+ ÉTUDIANTS",
+      "fastTrack": "VOIE RAPIDE"
+    },
+    "categories": {
+      "title": "Que voulez-vous <br /> <span class=\"text-brand-600\">maîtriser aujourd'hui ?</span>",
+      "description": "Choisissez une catégorie et commencez à construire votre avenir. Pas de blabla, juste des étapes pratiques adaptées à la réalité marocaine."
+    },
+    "why": {
+      "title": "Pourquoi nous avons construit <br /> <span class=\"text-brand-600\">NodQra.</span>",
+      "community": "Axé sur la communauté",
+      "communityDesc": "Construit par des Marocains pour des Marocains.",
+      "verified": "Infos vérifiées",
+      "verifiedDesc": "Chaque guide est vérifié pour son exactitude.",
+      "practical": "Étapes pratiques",
+      "practicalDesc": "Pas de théorie, juste des éléments d'action.",
+      "topRated": "Mieux noté",
+      "topRatedDesc": "La ressource n°1 pour la vie.",
+      "description1": "Nous avons remarqué un fossé énorme entre ce que nous apprenons à l'école et ce dont nous avons besoin pour survivre et prospérer dans le monde réel. Surtout au Maroc, où les tâches administratives peuvent être complexes et le marché du travail compétitif.",
+      "description2": "Notre mission est de démocratiser ce \"savoir caché\" et de donner à chaque jeune Marocain les outils dont il a besoin pour réussir, quel que soit son parcours.",
+      "team": "L'équipe NodQra",
+      "location": "Casablanca, Maroc"
+    },
+    "cta": {
+      "title": "Prêt à prendre <br /> <span class=\"text-brand-600\">le contrôle ?</span>",
+      "description": "Rejoignez des milliers de Marocains qui maîtrisent leur avenir aujourd'hui. C'est gratuit, pratique et construit pour vous.",
+      "button": "Construire mon plan de vie"
+    }
+  },
+  "Navbar": {
+    "home": "Accueil",
+    "categories": "Catégories",
+    "about": "À propos",
+    "join": "Nous rejoindre"
+  },
+  "Footer": {
+    "description": "Autonomiser la jeunesse marocaine avec les connaissances pratiques dont elle a besoin pour prospérer dans le monde réel.",
+    "links": "Liens rapides",
+    "legal": "Légal",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
+    "rights": "Tous droits réservés.",
+    "resources": "Ressources",
+    "work": "Travail",
+    "admin": "Admin",
+    "health": "Santé",
+    "study": "Études",
+    "company": "Entreprise",
+    "about": "À propos",
+    "mission": "Mission",
+    "contact": "Contact",
+    "join": "Nous rejoindre",
+    "stayUpdated": "Restez informé",
+    "newsletterDesc": "Recevez les derniers guides et conseils dans votre boîte de réception.",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "joinButton": "Rejoindre"
+  },
+  "Common": {
+    "readGuide": "Lire le guide",
+    "backToHome": "Retour à l'accueil",
+    "minRead": "{minutes} min de lecture",
+    "exploreOther": "Explorer d'autres catégories",
+    "exploreOtherDesc": "Il y a tellement plus à apprendre sur la vie d'adulte au Maroc.",
+    "home": "Accueil"
+  },
+  "Categories": {
+    "work": {
+      "title": "Travail & Carrière",
+      "description": "Maîtrisez le marché du travail, de votre premier CV à votre première promotion.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "cv-writing": "Comment rédiger un CV",
+        "cv-writing-desc": "Un guide complet pour créer un CV professionnel qui se démarque sur le marché marocain.",
+        "cv-writing-content": "\n### 1. L'En-tête : Votre Carte de Visite Numérique\nVotre en-tête doit être propre et professionnel. Incluez :\n* **Nom complet :** Utilisez une police légèrement plus grande.\n* **Titre professionnel :** ex. \"Spécialiste Marketing Junior\" ou \"Étudiant en Ingénierie Logicielle\".\n* **Infos de Contact :** Un email professionnel (prenom.nom@email.com), votre numéro de téléphone et votre ville.\n* **Profil LinkedIn :** Assurez-vous que votre profil est à jour avant de le lier.\n\n### 2. Le Résumé Professionnel\nC'est votre \"pitch\". En 3-4 phrases, mettez en avant votre parcours, vos compétences clés et ce que vous recherchez.\n*Exemple :* \"Étudiant en dernière année de Finance avec une passion pour l'analyse de données. Expérimenté en modélisation financière grâce à un stage de 3 mois à la BMCE. Cherche à mettre à profit mes compétences analytiques dans un rôle d'Analyste Junior.\"\n\n### 3. Expérience : Focus sur l'Impact\nNe listez pas seulement des tâches ; listez des réalisations. Utilisez des verbes d'action comme \"Géré\", \"Développé\", \"Augmenté\" ou \"Organisé\".\n* **Format :** Poste, Entreprise, Lieu, Dates (Mois/Année).\n* **Puces :** Utilisez 3-5 puces par poste. *Au lieu de \"Géré les réseaux sociaux\", dites \"Augmentation de l'engagement Instagram de 25% sur 4 mois grâce à une stratégie de contenu ciblée.\"\n\n### 4. Éducation & Certifications\nListez vos diplômes par ordre chronologique inverse. Mentionnez votre \"Mention\" si elle est bonne, et mettez en avant les cours ou projets pertinents. N'oubliez pas les certifications en ligne (Coursera, LinkedIn Learning) qui montrent votre esprit d'initiative.\n\n### 5. Compétences : Hard vs. Soft\n* **Hard Skills :** Logiciels (Excel, Photoshop), Langues (Arabe, Français, Anglais - soyez honnête sur les niveaux), Outils techniques.\n* **Soft Skills :** Communication, Travail d'équipe, Résolution de problèmes. Montrez, ne dites pas seulement (ex. \"Direction d'une équipe de 5 personnes pour un projet universitaire\").\n\n### 6. Erreurs de CV Marocains Courantes à Éviter\n* **Photos :** N'incluez une photo que si elle est spécifiquement demandée ou si c'est la norme dans votre secteur. Si vous le faites, utilisez un portrait professionnel sur un fond neutre.\n* **Longueur :** Tenez-vous en à une page si vous avez moins de 5 ans d'expérience.\n* **Format de Fichier :** Envoyez toujours au format PDF nommé \"CV_Prenom_Nom.pdf\".",
+        "job-application": "Comment postuler à des emplois",
+        "job-application-desc": "Conseils stratégiques sur où chercher et comment se démarquer sur le marché du travail marocain.",
+        "job-application-content": "### 1. Top Plateformes au Maroc\n* **LinkedIn :** La référence. Suivez les entreprises marocaines, rejoignez des groupes et engagez-vous avec les recruteurs.\n* **ReKrute.com :** Le premier site de recrutement pour les cadres au Maroc.\n* **Emploi.ma :** Idéal pour une grande variété de postes dans différents secteurs.\n* **Anapec :** Essentiel pour les postes subventionnés par l'État et les postes de débutants.\n\n### 2. Le Pouvoir du Réseau\nAu Maroc, de nombreux emplois sont pourvus via le \"marché caché de l'emploi\".\n* **Entretiens d'Information :** Contactez des professionnels de votre domaine pour une \"pause café\" de 15 minutes (virtuelle ou en personne) afin d'en apprendre davantage sur leur parcours.\n* **Réseaux d'Alumni :** Connectez-vous avec les diplômés de votre école ou université.\n* **Événements :** Participez à des webinaires de l'industrie, des ateliers et des salons de l'emploi (comme ceux organisés par l'Étudiant).\n\n### 3. Personnaliser Votre Candidature\nN'utilisez jamais le même CV et la même lettre de motivation pour chaque emploi.\n* **Mots-clés :** Lisez attentivement la description du poste et reprenez le langage qu'ils utilisent.\n* **La Lettre de Motivation :** Adressez-la à une personne spécifique si possible. Expliquez *pourquoi* vous voulez travailler pour *cette* entreprise spécifique et comment vous résoudriez leurs problèmes spécifiques.\n\n### 4. Étiquette de Suivi\nSi vous n'avez pas de nouvelles après une semaine, il est tout à fait acceptable d'envoyer un email de suivi poli ou un message LinkedIn. Cela montre votre persévérance et votre intérêt sincère.",
+        "interview-basics": "Les bases de l'entretien",
+        "interview-basics-desc": "Maîtrisez l'art de l'entretien avec ces techniques éprouvées et les questions marocaines courantes.",
+        "interview-basics-content": "### 1. La Préparation est 90% du Succès\n* **Recherchez l'Entreprise :** Connaissez leurs produits, leurs actualités récentes et leurs valeurs. Consultez leur page LinkedIn et leur site web.\n* **Comprenez le Poste :** Soyez prêt à expliquer comment vos compétences s'alignent avec chaque point de la description du poste.\n* **Préparez vos \"Histoires\" :** Ayez 3-4 \"histoires de réussite\" prêtes en utilisant la méthode STAR (Situation, Tâche, Action, Résultat).\n\n### 2. Questions Courantes & Comment y Répondre\n* **\"Présentez-vous\" :** Soyez professionnel. Concentrez-vous sur votre passé (éducation/expérience), votre présent (poste/statut actuel) et votre avenir (pourquoi vous voulez ce job).\n* **\"Pourquoi notre entreprise ?\" :** Mentionnez quelque chose de spécifique que vous admirez chez eux (ex. leur innovation, leur position sur le marché, leurs initiatives RSE).\n* **\"Vos qualités et défauts\" :** Pour les défauts, choisissez quelque chose de réel mais améliorable, et expliquez comment vous y travaillez.\n* **\"Prétentions salariales\" :** Faites des recherches sur le taux du marché pour le poste au Maroc auparavant. Il est souvent préférable de donner une fourchette.\n\n### 3. Communication Non Verbale\n* **Code Vestimentaire :** Visez \"un niveau au-dessus\" de la tenue de bureau quotidienne. Pour la plupart des bureaux marocains, une tenue décontractée chic ou formelle est attendue.\n* **Ponctualité :** Arrivez 10-15 minutes à l'avance. Au Maroc, être \"à l'heure\" signifie souvent être en avance pour un entretien.\n* **Langage Corporel :** Maintenez un bon contact visuel, tenez-vous droit et offrez une poignée de main ferme (mais pas écrasante).\n\n### 4. Clôture de l'Entretien\nAyez toujours 2-3 questions prêtes pour l'interviewer. Cela montre que vous réfléchissez sérieusement au poste.\n*Exemple :* \"À quoi ressemble le succès dans ce poste après 6 mois ?\" ou \"Comment décririez-vous la culture de l'équipe ?\""
+      }
+    },
+    "admin": {
+      "title": "Administration",
+      "description": "Les choses \"ennuyeuses\" qui gèrent réellement votre vie. Simplifiées pour le contexte marocain.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "cnss-guide": "Comment obtenir la CNSS",
+        "cnss-guide-desc": "Un guide complet sur la sécurité sociale, l'assurance maladie (AMO) et vos droits en tant que travailleur marocain.",
+        "cnss-guide-content": "### 1. Qu'est-ce que la CNSS ?\nLa Caisse Nationale de Sécurité Sociale (CNSS) est l'organisme chargé de gérer la sécurité sociale pour les salariés du secteur privé au Maroc. Elle assure la couverture en cas de maladie (AMO), maternité, invalidité et retraite.\n\n### 2. Comment s'inscrire\nEn règle générale, c'est votre employeur qui est responsable de votre affiliation. Une fois inscrit, vous recevrez un numéro d'immatriculation.\n* **La Carte :** Vous recevrez une carte CNSS physique. Gardez-la en sécurité ; vous en aurez besoin pour vos dossiers médicaux.\n* **Portail MaCNSS :** Téléchargez l'application MaCNSS ou utilisez le site web pour suivre vos \"points\" (jours travaillés) et vérifier l'état de vos remboursements médicaux.\n\n### 3. Comprendre l'AMO (Assurance Maladie Obligatoire)\nL'AMO est la partie assurance maladie obligatoire de la CNSS.\n* **Couverture :** Elle couvre une partie importante des consultations médicales, des hospitalisations et des médicaments.\n* **Remboursements :** Lorsque vous consultez un médecin ou achetez des médicaments, vous devrez remplir une \"Feuille de Soins\" et la déposer dans une agence CNSS ou un bureau de proximité agréé (comme Cash Plus ou Chaabi Cash).\n\n### 4. Pourquoi c'est important\nLa CNSS n'est pas seulement pour le futur (retraite) ; c'est pour votre sécurité immédiate. Elle garantit que si vous tombez malade ou avez un accident, vous ne ferez pas face à une ruine financière. Assurez-vous toujours que votre employeur déclare l'intégralité de votre salaire.",
+        "bank-account": "Ouvrir un compte bancaire",
+        "bank-account-desc": "Naviguez dans le système bancaire marocain, comparez les offres et comprenez vos options numériques.",
+        "bank-account-content": "### 1. Choisir la bonne banque\nLes principales banques au Maroc incluent Attijariwafa Bank, BCP (Banque Populaire), BMCE (Bank of Africa) et CIH Bank.\n* **Comptes standards :** Bons pour les besoins basiques, mais attention aux frais de tenue de compte mensuels.\n* **Offres Jeunes :** De nombreuses banques proposent des offres spéciales \"Pack\" pour les étudiants et les jeunes professionnels (ex. Code 30 de CIH) avec des frais nuls ou très bas.\n\n### 2. Documents nécessaires\nPour ouvrir un compte, vous avez généralement besoin de :\n* Une copie de votre CIN (Carte d'Identité Nationale).\n* Une \"Attestation de travail\" ou un \"Certificat de scolarité\".\n* Un petit dépôt initial (parfois non requis pour les comptes jeunes).\n\n### 3. Banque numérique et E-commerce\n* **Applications mobiles :** La plupart des banques marocaines disposent désormais d'excellentes applications pour les virements, le paiement des factures et le suivi des dépenses.\n* **Dotation E-commerce :** Si vous souhaitez effectuer des achats sur des sites internationaux (Netflix, Amazon, AliExpress), vous devez activer votre \"Dotation E-commerce\" (généralement limitée à 15 000 MAD par an).\n* **Agences en ligne :** Certaines banques proposent des \"agences en ligne\" où vous pouvez presque tout faire sans vous rendre dans une agence physique.\n\n### 4. Frais à surveiller\n* **Tenue de compte :** Frais de maintenance mensuels ou trimestriels.\n* **Frais de retrait :** Frais pour l'utilisation d'un guichet automatique d'une autre banque.\n* **Commission de change :** Frais pour les transactions internationales.",
+        "read-contract": "Comment lire un contrat",
+        "read-contract-desc": "Connaissances essentielles sur le droit du travail marocain, les types de contrats et ce qu'il faut vérifier avant de signer.",
+        "read-contract-content": "### 1. Types de contrats au Maroc\n* **CDI (Contrat à Durée Indéterminée) :** Le \"Graal\". Un contrat permanent sans date de fin. Offre le plus de sécurité.\n* **CDD (Contrat à Durée Déterminée) :** Un contrat à durée fixe (ex. 6 mois ou 1 an). Peut être renouvelé, mais il y a des limites légales.\n* **Contrat ANAPEC :** Un contrat d'insertion-formation subventionné. Souvent utilisé pour les premiers demandeurs d'emploi. Notez que la sécurité sociale (CNSS) est obligatoire, mais les cotisations de retraite peuvent différer.\n\n### 2. Clauses clés à vérifier\n* **La période d'essai :** Pendant cette période, vous ou l'employeur pouvez mettre fin au contrat avec un préavis très court. Sachez combien de temps dure la vôtre.\n* **Description de poste :** Assurez-vous que les tâches énumérées correspondent à ce qui a été discuté lors de l'entretien.\n* **Salaire et avantages :** Vérifiez le \"Salaire Brut\" par rapport au \"Salaire Net\". Confirmez les primes, les indemnités de transport et l'assurance santé (mutuelle).\n* **Heures de travail :** La norme est de 44 heures par semaine dans le secteur privé.\n\n### 3. Le processus de \"Légalisation\"\nAu Maroc, votre signature sur le contrat doit être \"Légalisée\" à la Muqata'a locale. Cela donne une valeur juridique au document.\n\n### 4. Vos droits\nFamiliarisez-vous avec le \"Code du Travail\". Vous avez droit à des congés payés (généralement 1,5 jour par mois travaillé), à un environnement de travail sûr et à une protection contre le licenciement abusif.",
+        "visa-basics": "Les bases du visa",
+        "visa-basics-desc": "Un point de départ pratique pour les Marocains prévoyant de voyager ou d'étudier à l'étranger.",
+        "visa-basics-content": "### 1. Le visa Schengen (Europe)\nLe visa le plus courant pour les Marocains. Il permet de voyager dans 27 pays européens.\n* **Où postuler :** Généralement via TLSContact ou VFS Global, selon le pays (France, Espagne, Italie, etc.).\n* **Le \"Rendez-vous\" :** Obtenir un rendez-vous est souvent la partie la plus difficile. Anticipez des mois à l'avance.\n\n### 2. Documents essentiels\n* **Passeport :** Doit être valide pendant au moins 6 mois.\n* **Preuve de fonds :** Les relevés bancaires récents sont cruciaux. Ils veulent voir un revenu stable et suffisamment d'épargne pour votre voyage.\n* **Statut professionnel :** \"Attestation de travail\", \"Bulletins de paie\" et \"Attestation de déclaration de salaire\" (CNSS).\n* **Assurance voyage :** Doit couvrir au moins 30 000 EUR en frais médicaux.\n\n### 3. Pièges courants\n* **Dossiers incomplets :** Même un seul document manquant peut entraîner un rejet immédiat.\n* **Objet du voyage flou :** Soyez très clair sur la raison de votre voyage (tourisme, affaires, visite familiale).\n* **Faux documents :** N'utilisez jamais, au grand jamais, de faux documents. Cela entraînera une interdiction permanente.\n\n### 4. Autres destinations\n* **Turquie :** Nécessite actuellement un e-visa ou un visa autocollant pour les Marocains selon l'âge/le statut.\n* **Sans visa :** Des pays comme le Sénégal, la Tunisie et le Brésil permettent aux Marocains d'entrer avec juste un passeport (vérifiez toujours les règles actuelles)."
+      }
+    },
+    "emotions": {
+      "title": "Vie & Émotions",
+      "description": "Outils et stratégies mentales pour rester vif, équilibré et résilient dans un monde bien rempli.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "stress-management": "Gérer le stress",
+        "stress-management-desc": "Techniques pratiques, basées sur la science, adaptées à l'étudiant et au travailleur marocain moderne.",
+        "stress-management-content": "### 1. Identifiez vos déclencheurs\nEst-ce les examens ? Les délais ? Les attentes familiales ? Les embouteillages à Casablanca ? Une fois que vous connaissez le \"quoi\", vous pouvez vous attaquer au \"comment\".\n\n### 2. Les \"Trois Grands\" de la gestion du stress\n* **Sommeil :** Visez 7 à 8 heures. Votre cerveau a besoin de ce temps pour traiter les émotions et éliminer les toxines.\n* **Sport :** Même une marche de 20 minutes peut réduire considérablement les niveaux de cortisol.\n* **Organisation :** Un bureau encombré ou une liste de tâches vague crée un \"bruit\" mental. Utilisez des outils comme Trello ou un simple agenda papier.\n\n### 3. Techniques rapides pour les moments de stress intense\n* **Respiration carrée :** Inspirez pendant 4, tenez pendant 4, expirez pendant 4, tenez pendant 4. Répétez 3 fois.\n* **La technique d'ancrage 5-4-3-2-1 :** Nommez 5 choses que vous voyez, 4 que vous pouvez toucher, 3 que vous entendez, 2 que vous sentez et 1 que vous pouvez goûter.\n* **Blocage de temps :** Consacrez des heures spécifiques à des tâches spécifiques. Quand vous travaillez, travaillez. Quand vous vous reposez, reposez-vous.\n\n### 4. Savoir dire \"Non\"\nDans notre culture, nous nous sentons souvent obligés de plaire à tout le monde. Apprendre à fixer des limites est une compétence essentielle pour votre santé mentale.",
+        "discipline": "Construire la discipline",
+        "discipline-desc": "Allez au-delà de la motivation éphémère et construisez des habitudes cohérentes qui mènent au succès à long terme.",
+        "discipline-content": "### 1. Motivation vs Discipline\nLa motivation est un sentiment ; elle va et vient. La discipline est un système ; elle reste. N'attendez pas de \"vous sentir prêt\" pour commencer.\n\n### 2. Le pouvoir des petites habitudes\n* **La règle des 2 minutes :** Si une nouvelle habitude prend moins de 2 minutes, faites-la maintenant. Envie de commencer à lire ? Lisez une page. Envie de faire du sport ? Enfilez vos baskets.\n* **Empilement d'habitudes :** Attachez une nouvelle habitude à une habitude existante. \"Après avoir pris mon café du matin, j'écrirai mes 3 objectifs principaux de la journée.\"\n\n### 3. Conception de l'environnement\nRendez les bonnes habitudes faciles et les mauvaises habitudes difficiles.\n* **Envie d'étudier ?** Mettez votre téléphone dans une autre pièce.\n* **Envie de manger plus sain ?** Gardez des fruits sur le comptoir et cachez les collations.\n\n### 4. Travail profond (Deep Work)\nÀ une époque de notifications constantes, la capacité à se concentrer intensément sur une tâche difficile est un superpouvoir. Essayez la technique Pomodoro : 25 minutes de travail concentré, suivies d'une pause de 5 minutes.",
+        "self-confidence": "Booster la confiance en soi",
+        "self-confidence-desc": "Stratégies pour surmonter le syndrome de l'imposteur et construire une valeur personnelle résiliente.",
+        "self-confidence-content": "### 1. Comprendre le syndrome de l'imposteur\nCe sentiment que vous êtes un \"fraudeur\" et que les gens finiront par s'en rendre compte ? C'est incroyablement courant, surtout chez les plus performants. Reconnaissez-le, mais ne le laissez pas conduire votre vie.\n\n### 2. L'état d'esprit de croissance (Growth Mindset)\nAu lieu de dire \"je ne suis pas bon à ça\", dites \"je ne suis pas bon à ça *encore*\". Voyez les défis comme des opportunités d'apprendre plutôt que comme des menaces pour votre ego.\n\n### 3. Célébrez les petites victoires\nNous attendons souvent la \"grande\" promotion ou la remise des diplômes pour nous sentir fiers. Commencez à célébrer les petites choses : finir un livre difficile, aider un collègue ou tenir votre entraînement pendant une semaine.\n\n### 4. Soignez votre cercle\nLes personnes avec qui vous passez du temps (et les comptes que vous suivez sur les réseaux sociaux) ont un impact significatif sur l'image que vous avez de vous-même. Entourez-vous de personnes qui vous poussent à grandir mais vous soutiennent aussi quand vous échouez.",
+        "mental-health-awareness": "Sensibilisation à la santé mentale",
+        "mental-health-awareness-desc": "Briser le stigmate, comprendre les défis courants et savoir comment trouver du soutien au Maroc.",
+        "mental-health-awareness-content": "### 1. Briser le stigmate\nLa santé mentale est tout aussi importante que la santé physique. Se sentir anxieux ou déprimé n'est pas un signe de faiblesse ou un manque de foi ; c'est une expérience humaine qui mérite attention.\n\n### 2. Défis courants\n* **Anxiété :** Inquiétude excessive qui interfère avec la vie quotidienne.\n* **Dépression :** Tristesse persistante, perte d'intérêt et manque d'énergie.\n* **Épuisement professionnel (Burnout) :** Épuisement physique et émotionnel causé par un stress prolongé.\n\n### 3. Où trouver de l'aide au Maroc\n* **Psychologues :** Professionnels qui pratiquent la thérapie par la parole (non médicale).\n* **Psychiatres :** Docteurs en médecine qui peuvent diagnostiquer et prescrire des médicaments si nécessaire.\n* **Ressources en ligne :** Des plateformes comme \"L'Heure Joyeuse\" ou des applications internationales comme Headspace/Calm peuvent constituer un bon point de départ.\n\n### 4. Soutenir les autres\nSi un ami est en difficulté, la meilleure chose que vous puissiez faire est de l'écouter sans jugement. Vous n'avez pas besoin d'avoir toutes les réponses ; le simple fait d'être présent fait une différence."
+      }
+    },
+    "study": {
+      "title": "Études & Compétences",
+      "description": "Maîtrisez l'art d'apprendre et les outils numériques qui vous donneront un avantage concurrentiel.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "study-efficiently": "Étudier efficacement",
+        "study-efficiently-desc": "Arrêtez le \"bourrage de crâne\" et commencez à utiliser des techniques d'apprentissage basées sur la science.",
+        "study-efficiently-content": "### 1. Rappel actif (Active Recall)\nNe vous contentez pas de relire vos notes. Fermez le livre et essayez d'expliquer le concept à voix haute ou notez tout ce dont vous vous souvenez. Cela oblige votre cerveau à \"récupérer\" l'information, ce qui la rend plus stable.\n\n### 2. Répétition espacée (Spaced Repetition)\nAu lieu de bachoter pendant 10 heures en une journée, étudiez 1 heure pendant 10 jours. Revoyez la matière à des intervalles de plus en plus longs (1 jour après, 3 jours après, 1 semaine après). Des outils comme Anki ou Quizlet sont parfaits pour cela.\n\n### 3. La technique Feynman\nEssayez d'expliquer un sujet complexe à un enfant de 10 ans. Si vous ne pouvez pas l'expliquer simplement, c'est que vous ne le comprenez pas assez bien. Cela mettra en évidence les lacunes de vos connaissances.\n\n### 4. Cartes mentales (Mind Mapping)\nPour les sujets comportant de nombreuses connexions (comme l'Histoire ou la Biologie), utilisez des cartes mentales pour visualiser comment différents concepts sont liés les uns aux autres. C'est beaucoup plus efficace que des notes linéaires.",
+        "digital-skills": "Compétences numériques de base",
+        "digital-skills-desc": "Maîtrisez les logiciels et les outils d'IA essentiels requis dans tout lieu de travail moderne.",
+        "digital-skills-content": "### 1. Les essentiels d'Office\n* **Google Docs/Word :** Apprenez à utiliser les styles, les en-têtes et les tables des matières automatiques.\n* **Google Sheets/Excel :** Maîtrisez les formules de base (SOMME, MOYENNE, RECHERCHEV) et apprenez à créer des graphiques clairs.\n* **PowerPoint/Slides :** Concentrez-vous sur le \"moins c'est plus\". Utilisez des images de haute qualité et un minimum de texte.\n\n### 2. Prompting d'IA 101\nDes outils comme ChatGPT ou Mistral sont de puissants assistants si vous savez comment les utiliser.\n* **Soyez spécifique :** Au lieu de \"Écris un email\", dites \"Rédige un email de suivi professionnel à un recruteur après un entretien d'embauche pour un poste en Marketing\".\n* **Donnez du contexte :** Dites à l'IA qui vous êtes et quel est votre objectif.\n\n### 3. Gestion de fichiers\nOrganisez votre vie numérique. Utilisez des structures de dossiers claires et des noms de fichiers descriptifs (ex. \"Projet_Histoire_Brouillon_V1.pdf\" au lieu de \"document123.pdf\"). Utilisez le stockage en nuage (Google Drive, OneDrive) pour ne jamais perdre votre travail.\n\n### 4. Vitesse de frappe\nCela peut paraître basique, mais être capable de taper rapidement et avec précision sans regarder le clavier vous fera gagner des centaines d'heures au cours de votre carrière. Utilisez des sites gratuits comme 10FastFingers pour vous entraîner."
+      }
+    },
+    "relationships": {
+      "title": "Relations & Famille",
+      "description": "Naviguer dans les dynamiques sociales et familiales complexes de la vie marocaine moderne.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "parent-communication": "Parler à vos parents",
+        "parent-communication-desc": "Comment combler le fossé générationnel, exprimer vos besoins et instaurer une confiance mutuelle.",
+        "parent-communication-content": "### 1. Choisissez le bon moment\nN'abordez pas un sujet difficile lorsqu'ils sont fatigués, stressés ou qu'ils regardent les informations. Attendez un moment calme où vous pourrez avoir toute leur attention.\n\n### 2. La \"Preuve de maturité\"\nLes parents s'inquiètent souvent parce qu'ils veulent vous protéger. Montrez-leur que vous êtes responsable par vos actions, pas seulement par vos paroles. Si vous voulez plus de liberté, montrez que vous pouvez assumer vos responsabilités actuelles (études, corvées, etc.).\n\n### 3. Utilisez le \"Je\"\nAu lieu de \"Tu ne me laisses jamais sortir\", essayez \"J'ai l'impression d'avoir beaucoup travaillé pour mes études et j'apprécierais vraiment de pouvoir me détendre avec mes amis ce week-end\". C'est moins accusateur et plus centré sur vos sentiments.\n\n### 4. Écoute active\nLa communication est à double sens. Essayez de comprendre *leurs* préoccupations. Posez des questions comme : \"Qu'est-ce qui t'inquiète si je fais ça ?\". Une fois que vous comprenez leur peur, vous pouvez l'aborder directement.",
+        "peer-pressure": "Gérer la pression des pairs",
+        "peer-pressure-desc": "Rester fidèle à vos valeurs et à vos objectifs tout en maintenant des amitiés saines.",
+        "peer-pressure-content": "### 1. Connaissez vos valeurs\nQu'est-ce qui est vraiment important pour vous ? Votre santé ? Vos études ? Votre intégrité ? Lorsque vous êtes au clair sur vos valeurs, il est beaucoup plus facile de dire \"non\" à ce qui les contredit.\n\n### 2. Le pouvoir du \"Non\"\nVous n'avez pas toujours besoin d'une longue explication. Un simple \"Non merci, ça ne m'intéresse pas\" ou \"J'ai d'autres projets\" suffit souvent. Les vrais amis respecteront vos limites.\n\n### 3. Identifier les comportements toxiques\nSi vos \"amis\" vous rabaissent constamment, vous poussent vers des situations dangereuses ou ne veulent être avec vous que lorsque vous faites ce qu'ils veulent, ce ne sont peut-être pas de vrais amis.\n\n### 4. Trouver votre tribu\nCherchez des personnes qui partagent vos centres d'intérêt et vos objectifs. Qu'il s'agisse d'un club de sport, d'un groupe de codage ou d'une organisation bénévole, être entouré de personnes partageant les mêmes idées facilite grandement la réussite."
+      }
+    },
+    "digital": {
+      "title": "Vie Numérique",
+      "description": "Maîtrisez les outils de l'ère numérique tout en restant en sécurité, privé et équilibré.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "online-safety": "Sécurité en ligne 101",
+        "online-safety-desc": "Pratiques essentielles pour protéger vos données, votre vie privée et votre bien-être mental en ligne.",
+        "online-safety-content": "### 1. Hygiène des mots de passe\n* **Utilisez un gestionnaire de mots de passe :** Des outils comme Bitwarden ou LastPass vous aident à créer et stocker des mots de passe complexes et uniques.\n* **Activez la 2FA (Double Authentification) :** C'est l'étape la plus importante. Même si quelqu'un obtient votre mot de passe, il ne pourra pas accéder à votre compte sans le code de votre téléphone.\n\n### 2. Repérer le phishing et les arnaques\nSi une offre semble trop belle pour être vraie (ex. \"Vous avez gagné un nouvel iPhone !\"), elle l'est probablement. Ne cliquez jamais sur des liens suspects dans les emails ou SMS, surtout ceux demandant vos coordonnées bancaires.\n\n### 3. Paramètres de confidentialité\nExaminez régulièrement les paramètres de confidentialité de vos comptes de réseaux sociaux (Instagram, Facebook, TikTok). Soyez attentif à ce que vous partagez publiquement, notamment votre position ou vos coordonnées personnelles.\n\n### 4. Faire face au cyber-harcèlement\nSi vous êtes harcelé en ligne, ne restez pas silencieux. Bloquez la personne, enregistrez des captures d'écran comme preuves et parlez-en à un adulte ou à un ami de confiance. Au Maroc, il existe des protections juridiques contre le harcèlement numérique.",
+        "social-media-balance": "Équilibre des réseaux sociaux",
+        "social-media-balance-desc": "Stratégies pour utiliser les médias sociaux de manière intentionnelle sans les laisser contrôler votre temps ou votre humeur.",
+        "social-media-balance-content": "### 1. Le piège de la comparaison\nN'oubliez pas que les réseaux sociaux sont une \"vitrine\". Les gens publient rarement leurs échecs, leurs mauvais jours ou leurs moments ennuyeux. Ne comparez pas vos \"coulisses\" à leur \"scène\".\n\n### 2. Soignez votre flux\nSi un compte vous fait systématiquement vous sentir mal dans votre peau, désabonnez-vous ou masquez-le. Suivez des comptes qui vous inspirent, vous apprennent de nouvelles choses ou vous font rire.\n\n### 3. Fixez des limites numériques\n* **Pas de téléphone au lit :** La lumière bleue interfère avec votre sommeil et le défilement tardif peut entraîner de l'anxiété.\n* **Utilisez les limites d'applications :** iOS et Android disposent tous deux d'outils intégrés pour limiter votre temps sur certaines applications.\n* **Détox numérique :** Essayez un dimanche \"sans écran\" ou même quelques heures par jour où vous rangez complètement votre téléphone.\n\n### 4. Soyez un créateur conscient\nAvant de publier, demandez-vous : \"Pourquoi est-ce que je partage cela ? Est-ce utile ? Est-ce vrai ? Est-ce que cela reflète qui je suis vraiment ?\""
+      }
+    },
+    "finance": {
+      "title": "Argent & Finance",
+      "description": "Bâtissez des bases solides pour votre indépendance financière avec des conseils pratiques axés sur le Maroc.",
+      "explore": "Explorer tous les guides",
+      "guides": {
+        "saving-pocket-money": "Économiser votre argent de poche",
+        "saving-pocket-money-desc": "Des habitudes et des systèmes simples pour vous aider à épargner pour ce qui compte vraiment.",
+        "saving-pocket-money-content": "### 1. La règle 50/30/20 (adaptée aux ados)\n* **50% pour les Besoins :** Fournitures scolaires, transport, goûters essentiels.\n* **30% pour les Envies :** Sorties entre amis, ce nouveau jeu ou des vêtements à la mode.\n* **20% pour l'Épargne :** Mettez cela de côté *en premier* avant de dépenser quoi que ce soit d'autre.\n\n### 2. Fixez des objectifs spécifiques\nIl est beaucoup plus facile d'épargner quand on épargne *pour* quelque chose. Qu'il s'agisse d'un nouvel ordinateur, d'un voyage ou simplement d'un \"fonds d'urgence\", donnez un nom à votre épargne.\n\n### 3. Suivez vos dépenses\nPendant un mois, notez tout ce que vous dépensez. Vous serez surpris de voir à quel point les petits achats quotidiens (comme ce café ou cette collation en trop) s'accumulent. Utilisez un simple carnet ou une application gratuite.\n\n### 4. La \"Règle des 24 heures\"\nAvant d'acheter quelque chose qui n'est pas une nécessité, attendez 24 heures. Souvent, l'envie pressante s'estompera et vous réaliserez que vous n'en avez pas réellement besoin.",
+        "code-18": "Comprendre le Code 18",
+        "code-18-desc": "Tout ce que vous devez savoir sur l'ouverture de votre premier compte bancaire au Maroc en tant que mineur.",
+        "code-18-content": "### 1. Qu'est-ce que le Code 18 ?\nLe Code 18 est un type spécial de compte bancaire proposé par de nombreuses banques marocaines (comme CIH Bank) spécifiquement pour les mineurs (moins de 18 ans). Il est conçu pour aider les jeunes à apprendre à gérer leur argent en toute sécurité.\n\n### 2. Caractéristiques clés\n* **Zéro frais :** Généralement, il n'y a aucun frais de tenue ou de gestion de compte.\n* **Carte de débit :** Vous recevez une carte pour retirer de l'argent et payer en magasin.\n* **Contrôle parental :** Vos parents ou votre tuteur légal doivent ouvrir le compte avec vous et peuvent généralement surveiller l'activité.\n\n### 3. Comment en ouvrir un\nVous devrez vous rendre en agence avec votre père ou votre tuteur légal. Apportez :\n* Votre livret de famille ou un acte de naissance.\n* La CIN de votre tuteur.\n* Votre propre CIN (si vous en avez une).\n\n### 4. Passage à l'âge adulte\nUne fois que vous avez 18 ans, votre compte Code 18 se transforme généralement en un compte jeune standard (comme Code 30), vous donnant le plein contrôle et ajoutant souvent des fonctionnalités comme les paiements e-commerce internationaux."
+      }
+    }
+  },
+  "CVMaker": {
+    "title": "Créateur de CV Facile",
+    "description": "Créez un CV professionnel en quelques minutes. Remplissez vos coordonnées et téléchargez le au format PDF.",
+    "personalInfo": "Informations Personnelles",
+    "education": "Éducation",
+    "experience": "Expérience",
+    "skills": "Compétences",
+    "languages": "Langues",
+    "summary": "Résumé Professionnel",
+    "fullName": "Nom Complet",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Ville",
+    "jobTitle": "Titre du Poste Visé",
+    "add": "Ajouter",
+    "remove": "Supprimer",
+    "school": "École / Université",
+    "degree": "Diplôme / Certificat",
+    "date": "Dates d'emploi (ex. 2022 - Présent)",
+    "company": "Nom de l'entreprise",
+    "role": "Poste / Titre",
+    "descInput": "Missions et Réalisations",
+    "download": "Télécharger PDF",
+    "preview": "Prévisualisation",
+    "skillsPlaceholder": "ex: Photoshop, Excel, Travail d'équipe",
+    "languagesPlaceholder": "ex: Arabe (Maternel), Anglais (Courant)",
+    "cta": "Créer mon CV maintenant",
+    "aiAssistant": {
+      "title": "Assistant IA",
+      "description": "Analysez votre CV par rapport à une offre d'emploi pour obtenir des améliorations personnalisées et des suggestions de mots-clés.",
+      "jobDescLabel": "Description du poste visé",
+      "jobDescPlaceholder": "Copiez l'offre d'emploi ici...",
+      "analyze": "Analyser et Suggérer",
+      "analyzing": "Génération d'analyses...",
+      "improvements": "Améliorations Suggérées",
+      "keywords": "Mots-clés à inclure",
+      "noResults": "Entrez une description de poste pour obtenir des suggestions IA personnalisées pour votre CV."
+    }
+  }
+}

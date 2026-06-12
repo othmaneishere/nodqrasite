@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-50: #fdfcfb;
+  --color-brand-100: #f7f3f0;
+  --color-brand-200: #eee7e1;
+  --color-brand-300: #e0d4ca;
+  --color-brand-400: #cbb9ab;
+  --color-brand-500: #b9a18f;
+  --color-brand-600: #a98d7a;
+  --color-brand-700: #8d7465;
+  --color-brand-800: #735f54;
+  --color-brand-900: #5e4f46;
+  --color-brand-950: #312924;
+  
+  --color-accent-gold: #D4AF37;
+  --color-accent-teal: #2D5A5A;
+}
+
+:root[lang="ar"] {
+  --font-sans: var(--font-arabic);
+  --font-display: var(--font-arabic);
+}
+
+@layer base {
+  * {
+    @apply border-brand-200/50 outline-none;
+  }
+  body {
+    @apply bg-brand-50 text-slate-900 selection:bg-brand-950 selection:text-white;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/60 backdrop-blur-xl border border-white/40;
+  }
+  
+  .glass-dark {
+    @apply bg-brand-950/80 backdrop-blur-xl border border-white/10;
+  }
+
+  .card-shadow {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-shadow-hover {
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-grid {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, var(--color-brand-200) 1px, transparent 1px);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-300);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-400);
+}
