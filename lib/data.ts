@@ -54,6 +54,20 @@ export const categories: Category[] = [
         description: '',
         icon: CheckCircle2,
         content: ''
+      },
+      {
+        id: 'internship-search',
+        title: '',
+        description: '',
+        icon: Users,
+        content: ''
+      },
+      {
+        id: 'workplace-soft-skills',
+        title: '',
+        description: '',
+        icon: Sparkles,
+        content: ''
       }
     ]
   },
@@ -87,17 +101,17 @@ export const categories: Category[] = [
         content: ''
       },
       {
-        id: 'bank-account',
+        id: 'legalizing-documents',
         title: '',
         description: '',
-        icon: CreditCard,
+        icon: FileText,
         content: ''
       },
       {
-        id: 'visa-basics',
+        id: 'driving-license',
         title: '',
         description: '',
-        icon: Plane,
+        icon: Smartphone,
         content: ''
       }
     ]
@@ -118,7 +132,7 @@ export const categories: Category[] = [
         content: ''
       },
       {
-        id: 'saving-pocket-money',
+        id: 'budgeting-basics',
         title: '',
         description: '',
         icon: Target,
@@ -156,10 +170,10 @@ export const categories: Category[] = [
         content: ''
       },
       {
-        id: 'digital-skills',
+        id: 'student-life',
         title: '',
         description: '',
-        icon: Laptop,
+        icon: Users,
         content: ''
       }
     ]
@@ -180,10 +194,10 @@ export const categories: Category[] = [
         content: ''
       },
       {
-        id: 'social-media-balance',
+        id: 'linkedin-branding',
         title: '',
         description: '',
-        icon: Zap,
+        icon: BookOpen,
         content: ''
       }
     ]
@@ -197,24 +211,17 @@ export const categories: Category[] = [
     color: 'bg-rose-50 text-rose-700 border-rose-200',
     guides: [
       {
-        id: 'discipline',
-        title: '',
-        description: '',
-        icon: Zap,
-        content: ''
-      },
-      {
-        id: 'stress-management',
+        id: 'resilience',
         title: '',
         description: '',
         icon: Sparkles,
         content: ''
       },
       {
-        id: 'self-confidence',
+        id: 'goal-setting',
         title: '',
         description: '',
-        icon: Heart,
+        icon: Zap,
         content: ''
       }
     ]
@@ -235,7 +242,7 @@ export const categories: Category[] = [
         content: ''
       },
       {
-        id: 'peer-pressure',
+        id: 'conflict-resolution',
         title: '',
         description: '',
         icon: Heart,

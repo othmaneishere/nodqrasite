@@ -125,7 +125,13 @@
         "interview-basics-content": "### 1. Preparation\nResearch the company. Know who the CEO is and what their main products are. Check their LinkedIn for recent news.\n\n### 2. Common Questions\n* **\"Présentez-vous\" (Tell me about yourself):** Keep it under 2 minutes. Focus on your education, key skills, and why you are there.\n* **\"Pourquoi notre entreprise?\" (Why us?):** Mention something specific you admire about them.\n* **Salary:** Research the market rate. Give a range (e.g., 5,000 - 6,000 MAD for an entry-level role).\n\n### 3. Cultural Nuances\n* **Punctuality:** Arrive 10 minutes early. \"On time\" is considered late for an interview.\n* **Dress Code:** Usually business formal or smart casual. First impressions matter immensely.\n\n### 4. Closing\nAlways ask 2-3 questions about the team or the role's challenges. It shows you are already thinking about how to help them.",
         "anapec-programs": "ANAPEC Programs Explained",
         "anapec-programs-desc": "How to benefit from IDMAJ, TAEHIL, and the new Ana Moukawil program.",
-        "anapec-programs-content": "### 1. IDMAJ (Insertion Contract)\nThis is for first-time job seekers. \n* **Benefit:** You get a salary (usually 1,600 to 6,000 MAD) and the company pays zero CNSS charges for you for 24 months. \n* **Goal:** To help you get your foot in the door.\n\n### 2. TAEHIL (Skill Improvement)\nIf your skills don't match the market, ANAPEC can pay for your training to adapt you to a specific job.\n\n### 3. Ana Moukawil (Entrepreneurship)\nReplacing the old Moukawalati, this program helps you start your business.\n* **Advice:** They provide \"Chèque Conseil\" to pay for technical help (accounting, legal).\n* **Subsidies:** They can even help pay part of your rent for the first year.\n\n### 4. How to Register\nGo to [www.anapec.org](http://www.anapec.org), create a profile, and visit your local agency with your diploma and CIN copy."
+        "anapec-programs-content": "### 1. IDMAJ (Insertion Contract)\nThis is for first-time job seekers. \n* **Benefit:** You get a salary (usually 1,600 to 6,000 MAD) and the company pays zero CNSS charges for you for 24 months. \n* **Goal:** To help you get your foot in the door.\n\n### 2. TAEHIL (Skill Improvement)\nIf your skills don't match the market, ANAPEC can pay for your training to adapt you to a specific job.\n\n### 3. Ana Moukawil (Entrepreneurship)\nReplacing the old Moukawalati, this program helps you start your business.\n* **Advice:** They provide \"Chèque Conseil\" to pay for technical help (accounting, legal).\n* **Subsidies:** They can even help pay part of your rent for the first year.\n\n### 4. How to Register\nGo to [www.anapec.org](http://www.anapec.org), create a profile, and visit your local agency with your diploma and CIN copy.",
+        "internship-search": "How to Find an Internship",
+        "internship-search-desc": "Land your first internship with these practical steps.",
+        "internship-search-content": "### 1. Start Early\nDon't wait until the last month. Start looking 2-3 months before the mandatory start date.\n\n### 2. Where to Look\n* **University Careers Page:** Check if your school has a portal.\n* **LinkedIn:** Search for \"Internship\" + \"Morocco\" and filter by \"Date Posted\".\n* **Direct Applications:** Don't be afraid to email recruiters directly. A polite, concise email is often better than a generic application.\n\n### 3. The Email Template\nKeep it simple: \"Dear [Name], I am a [Major] student looking for a 3-month internship in [Field]. I admire [Company] because [Specific Reason]. Attached is my CV. Best regards.\"\n\n### 4. Negotiation\nMany internships in Morocco are unpaid. If you need money, focus on multinational companies that often provide a 'Stage rémunéré' (paid internship).",
+        "workplace-soft-skills": "Soft Skills for the Moroccan Workplace",
+        "workplace-soft-skills-desc": "How to handle Moroccan office culture.",
+        "workplace-soft-skills-content": "### 1. Hierarchy\nMoroccan workplaces are often hierarchical. Be respectful to superiors while remaining professional and proactive.\n\n### 2. Communication\nRelationships matter. Small talk (about family, holidays) is important before diving into work matters.\n\n### 3. Initiative\nDon't just wait for tasks. If you see something that needs to be done, ask how you can help. This is highly appreciated.\n\n### 4. Adaptability\nThings can change quickly. Being flexible and keeping a positive attitude is key to success."
       }
     },
     "admin": {
@@ -142,12 +148,12 @@
         "auto-entrepreneur": "Auto-Entrepreneur Status",
         "auto-entrepreneur-desc": "The best way to start a legal business or freelance in Morocco.",
         "auto-entrepreneur-content": "### 1. The Limits (2025)\n* **Trade/Artisan:** Up to 500,000 MAD/year (0.5% tax).\n* **Services:** Up to 200,000 MAD/year (1% tax).\n\n### 2. The 80,000 MAD Rule\nIf you have ONE client and you invoice them more than 80,000 MAD in a year, the excess is taxed at **30%**. This is to prevent companies from replacing employees with freelancers.\n\n### 3. Benefits\n* No tax for the first 5 years (Taxe Professionnelle).\n* Simple online declarations every 3 months.\n* Access to social security (AMO).\n\n### 4. Registration\nIt's 100% online at [rn.ae.gov.ma](https://rn.ae.gov.ma). You'll need your CIN and a professional address (even your home).",
-        "bank-account": "Banking for Youth",
-        "bank-account-desc": "CIH Code 30, L'bankalik, and other zero-fee offers.",
-        "bank-account-content": "### 1. CIH Code 30\nThe most popular for youth. 0 MAD monthly fees, free Mastercard for international shopping (Netflix, Spotify).\n\n### 2. Attijari L'bankalik\nA 100% digital bank. You can open it via a selfie on the app. No fees for under 35s.\n\n### 3. BOA Campus\nGreat for students, especially if you plan to study abroad. Good international assistance.\n\n### 4. Dotation E-commerce\nTo buy things online from outside Morocco, you must activate your \"Dotation\" on your banking app. The limit is usually 15,000 MAD per year.",
-        "visa-basics": "Visa Basics",
-        "visa-basics-desc": "Starting your journey abroad: Passport and Schengen basics.",
-        "visa-basics-content": "### 1. The Passport\nApply at [www.passeport.ma](https://www.passeport.ma). You'll need a \"Timbre\" (fee) of 500 MAD (can be paid via phone apps).\n\n### 2. Schengen Visa\nFor Europe. You apply through TLSContact or VFS Global. \n* **Key Docs:** Bank statements for the last 3 months, CNSS attestation, and flight/hotel bookings.\n\n### 3. Study Visas\nCampus France is the main route for France. Start early (November/December) for the following year.\n\n### 4. Golden Rule\nNever use fake documents. A single fake paper will get you blacklisted from all European countries for years."
+        "legalizing-documents": "Legalizing Documents (Muqata'a Guide)",
+        "legalizing-documents-desc": "Procedures, costs, and tips for document certification.",
+        "legalizing-documents-content": "### 1. What is \"Légalisation\"?\nIt confirms that a copy is a true copy of the original document.\n\n### 2. Where to go?\nYou must go to the \"Muqata'a\" (District Office) that issued the document, or in some cases, your current place of residence.\n\n### 3. How to do it?\nBring the original document and copies. Pay the small fee (usually 2 MAD per stamp).\n\n### 4. Pro Tip\nAlways prepare your documents in advance. Check for any required signatures or stamps on the original before going.",
+        "driving-license": "Getting Your Driving License",
+        "driving-license-desc": "Full path to obtaining your \"Permis B\".",
+        "driving-license-content": "### 1. Choosing a School\nCheck online for reviews. Pick one that is near your home and uses modern cars.\n\n### 2. Theory (Code)\nIt's all about practice. Download apps like \"Code de la route Maroc\" to practice daily. You need to pass the theory test before practical training.\n\n### 3. Practice\nTake lessons. Don't be shy if you are slow; practice makes perfect.\n\n### 4. Exam\nStay calm, respect the examiner's instructions, and practice parking daily."
       }
     },
     "finance": {
@@ -158,9 +164,9 @@
         "payslip-taxes": "Understanding Your Payslip",
         "payslip-taxes-desc": "Salaire Brut vs Net: Where does your money go?",
         "payslip-taxes-content": "### 1. Salaire Brut vs Net\n* **Brut:** The total amount before any deductions.\n* **Net:** What actually enters your bank account.\n\n### 2. Common Deductions\n* **CNSS:** About 4.48% for your social security.\n* **AMO:** About 2.26% for your health insurance.\n* **IR (Impôt sur le Revenu):** Income tax. It's progressive; the more you earn, the higher the %.\n\n### 3. Allowances (Indemnités)\nThings like transport or food allowances are often \"Net\", meaning they aren't taxed as much as the base salary.\n\n### 4. TGR (Taxes)\nIf you own a car or house, you'll pay taxes to the TGR. You can pay these easily on [www.tgr.gov.ma](https://www.tgr.gov.ma).",
-        "saving-pocket-money": "Saving in Morocco",
-        "saving-pocket-money-desc": "Practical habits for young Moroccans to build wealth.",
-        "saving-pocket-money-content": "### 1. The 50/30/20 Rule\n* 50% for Needs (Bus, simple food).\n* 30% for Wants (Cafe with friends, clothes).\n* 20% for Savings (Put this away FIRST).\n\n### 2. Avoid the \"Cafe\" Trap\nSpending 15-20 MAD every day on a cafe might seem small, but it's 600 MAD a month. Try making coffee at home sometimes.\n\n### 3. Emergency Fund\nTry to save 1,000 MAD as a \"safety net\" for when your phone breaks or you have an unexpected trip.\n\n### 4. Digital Tracking\nUse a simple app to note every cent you spend for one month. You will be shocked where your money goes.",
+        "budgeting-basics": "Budgeting for Young Professionals",
+        "budgeting-basics-desc": "Practical budgeting methods and apps.",
+        "budgeting-basics-content": "### 1. The 50/30/20 Rule\nUse this to divide your monthly salary. \n\n### 2. Digital Tools\nUse apps like \"Money Manager\" or a simple Excel sheet to track your expenses for 1 month.\n\n### 3. The Envelope Method\nIf you struggle with cash, use the envelope method for different categories (Transport, Food, Leisure).\n\n### 4. Long-term goals\nSet a goal for savings (e.g., 6 months of expenses) and stick to it.",
         "code-18": "Code 18: First Account",
         "code-18-desc": "Banking for those under 18 with parent control.",
         "code-18-content": "### 1. What is it?\nA savings account for minors. No fees, and it comes with a card for withdrawals.\n\n### 2. How to open?\nYou must go with your father or legal guardian to the bank. Bring the \"Livret de famille\".\n\n### 3. Limits\nParents can set limits on how much you can withdraw per day (usually 200 or 500 MAD).\n\n### 4. Why get it?\nIt teaches you how to manage money early and makes it easy for your parents to send you lunch money."
@@ -177,9 +183,9 @@
         "study-efficiently": "Study Efficiently",
         "study-efficiently-desc": "Stop cramming and start learning using science-backed methods.",
         "study-efficiently-content": "### 1. Active Recall\nDon't just read. Close the book and try to explain it out loud. If you can't, you haven't learned it.\n\n### 2. Spaced Repetition\nReview the same topic after 1 day, then 3 days, then 1 week. It moves info from short-term to long-term memory.\n\n### 3. The Pomodoro Technique\n25 minutes of focus, 5 minutes of rest. Repeat. It prevents burnout and keeps your brain sharp.\n\n### 4. Teach to Learn\nTry to explain a concept to a friend. Teaching is the best way to solidify your own understanding.",
-        "digital-skills": "Digital Skills for 2025",
-        "digital-skills-desc": "The tools you need to survive in the modern office.",
-        "digital-skills-content": "### 1. AI Literacy\nLearn how to use ChatGPT or Mistral to brainstorm, summarize long PDF booklets, or draft emails. \n\n### 2. Excel is King\nIn every Moroccan office, Excel is used. Master \"VLOOKUP\" and \"Pivot Tables\". It makes you look like a pro.\n\n### 3. Canva for Design\nYou don't need Photoshop. Canva is enough for most professional presentations and social media posts.\n\n### 4. Online Learning\nUse platforms like Coursera or YouTube (Search for \"FreeCodeCamp\") to learn coding or data analysis for free."
+        "student-life": "University Life & Student Associations",
+        "student-life-desc": "Networking, associations, and making the most of your years.",
+        "student-life-content": "### 1. Get Involved\nJoin student associations early. They help you build your network and leadership skills.\n\n### 2. Networking\nYour peers are your future network. Build genuine friendships.\n\n### 3. Internships\nStart searching for internships from your first or second year.\n\n### 4. Skills\nUniversity is not just for exams. Work on your English, coding, or any skill that can help you later."
       }
     },
     "digital": {
@@ -190,9 +196,9 @@
         "online-safety": "Online Safety",
         "online-safety-desc": "Protect your privacy and your data in Morocco.",
         "online-safety-content": "### 1. Two-Factor Authentication (2FA)\nEnable it on WhatsApp, Instagram, and your Email. Even if someone steals your password, they can't get in.\n\n### 2. Social Media Privacy\nDon't post your location in real-time. Wait until you leave the place. Set your profile to private if you don't want strangers seeing your life.\n\n### 3. Spotting Scams\nIf you get an SMS saying \"Your package is blocked, pay 20 MAD\", it's a scam. Moroccan Post (Barid Al-Maghrib) never asks for payment this way via SMS.\n\n### 4. Password Managers\nUse Bitwarden or similar. Stop using \"123456\" or your birthday as a password.",
-        "social-media-balance": "Social Media Balance",
-        "social-media-balance-desc": "Don't let the algorithm control your mood.",
-        "social-media-balance-content": "### 1. Comparison is the Thief of Joy\nPeople only post their best moments. Don't compare your normal life to their filtered vacation photos.\n\n### 2. The 1-Hour Rule\nTry not to check social media for the first hour of your day. It sets a reactive tone for your whole morning.\n\n### 3. Unfollow Toxic Accounts\nIf an account makes you feel ugly, poor, or not good enough, unfollow it immediately. Your feed is your mental environment.\n\n### 4. Turn Off Notifications\nYou don't need to know every time someone likes a photo. Check social media on YOUR terms, not when the phone vibrates."
+        "linkedin-branding": "Personal Branding on LinkedIn",
+        "linkedin-branding-desc": "Optimize your profile and grow your network.",
+        "linkedin-branding-content": "### 1. Profile Picture & Banner\nUse a professional photo. A banner reflecting your domain is great.\n\n### 2. Headline\nDon't just put \"Student at [University]\". Put what you do and what value you provide.\n\n### 3. Content\nPost regularly. Share articles, your thoughts on your field, or your projects. It builds your reputation.\n\n### 4. Connection\nPersonalize your connection requests. Tell the person why you want to connect."
       }
     },
     "emotions": {
@@ -200,15 +206,12 @@
       "description": "Mental tools to stay sharp and balanced.",
       "explore": "Explore all guides",
       "guides": {
-        "discipline": "Building Discipline",
-        "discipline-desc": "Why discipline beats motivation every time.",
-        "discipline-content": "### 1. Systems Over Goals\nDon't just say \"I want to be fit.\" Say \"I walk 20 minutes every day at 6 PM.\" Build a system that makes failure hard.\n\n### 2. The 2-Minute Rule\nIf a task takes less than 2 minutes (like washing your dish or answering an email), do it now. It prevents mental clutter.\n\n### 3. Delayed Gratification\nThe ability to wait for a reward is the biggest predictor of success. Practice it daily.\n\n### 4. Deep Work\nTurn off your phone for 1 hour and focus on ONE thing. Most people can't do this anymore. If you can, you have a superpower.",
-        "stress-management": "Managing Stress",
-        "stress-management-desc": "Techniques for the high-pressure Moroccan life.",
-        "stress-management-content": "### 1. Box Breathing\nInhale for 4 seconds, hold for 4, exhale for 4, hold for 4. It physically calms your nervous system in 60 seconds.\n\n### 2. The \"Brain Dump\"\nBefore bed, write down everything worrying you. It moves the stress from your head to the paper, helping you sleep.\n\n### 3. Movement is Medicine\nA 15-minute walk outside (away from screens) is more effective than any \"relaxation app\".\n\n### 4. Accept What You Can't Control\nTraffic, weather, and other people's opinions are outside your control. Focus 100% of your energy on your own actions.",
-        "self-confidence": "Self-Confidence",
-        "self-confidence-desc": "Overcoming the fear of failure and judgment.",
-        "self-confidence-content": "### 1. Action Breeds Confidence\nConfidence doesn't come before action; it comes *after*. Do the thing you're afraid of, and the confidence will follow.\n\n### 2. Stop People Pleasing\nYou can be the "ripeness peach" in the world, and there will still be someone who hates peaches. Be okay with not being everyone's favorite.\n\n### 3. Positive Self-Talk\nStop calling yourself \"stupid\" when you make a mistake. Talk to yourself like you would talk to a best friend.\n\n### 4. Body Language\nStand tall, pull your shoulders back. Your posture tells your brain (and others) that you belong in the room."
+        "resilience": "Resilience in the Face of Rejection",
+        "resilience-desc": "Why resilience beats talent, and how to build it.",
+        "resilience-content": "### 1. Rejection is Normal\nApplying to 50 jobs to get 5 interviews is common. Do not take it personally.\n\n### 2. Analyze, Don't Criticize\nInstead of \"I'm not good enough\", ask \"What could I do better next time?\".\n\n### 3. Focus on Your Control\nYou cannot control if they hire you, but you can control your CV quality and your interview preparation.\n\n### 4. Build a Support System\nTalk to your friends or mentors. Having a support group makes handling rejection easier.",
+        "goal-setting": "Goal Setting (The SMARTER framework)",
+        "goal-setting-desc": "How to set goals that actually happen.",
+        "goal-setting-content": "### 1. Specific\nDefine exactly what you want.\n\n### 2. Measurable\nHow will you know you've achieved it?\n\n### 3. Achievable\nIs it realistic for you?\n\n### 4. Relevant\nDoes it align with your values?\n\n### 5. Time-Bound\nWhen will you achieve it?\n\n### 6. Evaluated & Reviewed\nCheck your progress regularly."
       }
     },
     "relationships": {
@@ -219,9 +222,9 @@
         "parent-communication": "Talking to Parents",
         "parent-communication-desc": "Bridge the gap with the older generation.",
         "parent-communication-content": "### 1. Show, Don't Just Tell\nIf you want your parents to trust you with more freedom, show them you are responsible with your current duties first.\n\n### 2. Pick Your Battles\nNot every disagreement is worth a fight. Let go of the small things so you have more \"capital\" for the big ones.\n\n### 3. Use \"I\" Statements\nInstead of \"You always control me,\" say \"I feel frustrated when I can't make my own choices about my studies.\"\n\n### 4. Shared Moments\nSometimes, just sitting with them for tea without your phone builds more trust than a thousand words.",
-        "peer-pressure": "Peer Pressure",
-        "peer-pressure-desc": "Staying true to yourself when others push back.",
-        "peer-pressure-content": "### 1. Know Your Values\nIf you know what you stand for, saying \"no\" to what you don't stand for becomes easy.\n\n### 2. The Power of \"No\"\nA simple \"No thanks, I'm not into that\" is enough. You don't owe anyone a 10-minute explanation for your choices.\n\n### 3. Find Better Friends\nIf your friends mock you for trying to improve yourself or stay out of trouble, they aren't friends; they are anchors.\n\n### 4. Be the Leader\nOften, others are also feeling the pressure but are too afraid to speak up. Being the first to say \"no\" can empower others to do the same."
+        "conflict-resolution": "Conflict Resolution",
+        "conflict-resolution-desc": "Setting boundaries and managing disputes with friends.",
+        "conflict-resolution-content": "### 1. Stay Calm\nIf you are angry, don't talk. Take a moment to calm down first.\n\n### 2. Listen\nListen to their perspective. They might have a point you missed.\n\n### 3. Express Yourself Clearly\nState how you feel and what you need, using \"I\" statements.\n\n### 4. Find Compromise\nMost conflicts can be resolved if both sides are willing to find a middle ground."
       }
     }
   },
