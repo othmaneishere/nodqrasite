@@ -62,150 +62,41 @@ interface CVData {
 export default function CVBuilderClient({ locale }: { locale: string }) {
   const t = useTranslations();
   const cvRef = useRef<HTMLDivElement>(null);
-  const [isGenerating, setIsGenerating] = useState(false);
-  const [activeTab, setActiveTab] = useState<'form' | 'preview'>('form');
+  const [activeStep, setActiveStep] = useState(0);
+  const [messages, setMessages] = useState<{role: 'assistant' | 'user', content: string}[]>([]);
+  const [isTyping, setIsTyping] = useState(false);
 
-  const [data, setData] = useState<CVData>({
-    personalInfo: {
-      fullName: '',
-      email: '',
-      phone: '',
-      location: '',
-      jobTitle: '',
-      summary: '',
-    },
-    education: [{ id: '1', school: '', degree: '', date: '' }],
-    experience: [{ id: '1', company: '', role: '', date: '', description: '' }],
-    skills: '',
-    languages: '',
-  });
+  const steps = [
+    { key: 'fullName', question: 'What is your full name?' },
+    { key: 'jobTitle', question: 'What is your target job title?' },
+    { key: 'summary', question: 'Could you give me a brief summary of your professional experience and strengths?' },
+    { key: 'experience', question: 'Tell me about your most recent work experience: Company, role, and key achievements.' },
+    { key: 'education', question: 'What about your education? School, degree, and graduation date.' },
+    { key: 'skills', question: 'What are your top skills for this job?' },
+    { key: 'languages', question: 'Which languages do you speak and at what level?' }
+  ];
 
-  const [jobDescription, setJobDescription] = useState('');
-  const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [aiInsights, setAiInsights] = useState<{
-    improvements: string[];
-    keywords: string[];
-  } | null>(null);
+  const handleSendMessage = async (userAnswer: string) => {
+    const newUserMessage = { role: 'user' as const, content: userAnswer };
+    setMessages(prev => [...prev, newUserMessage]);
+    setIsTyping(true);
 
-  const analyzeWithAI = async () => {
-    if (!jobDescription || isAnalyzing) return;
-
-    setIsAnalyzing(true);
-    try {
-      const client = new Mistral({ apiKey: process.env.NEXT_PUBLIC_MISTRAL_API_KEY });
-      const response = await client.chat.complete({
-        model: "mistral-large-latest",
-        messages: [
-          {
-            role: "user",
-            content: `
-              Analyze the following CV data against the target job description. 
-              Provide specific suggestions for improvements and a list of key skills/keywords that are missing or should be emphasized.
-              
-              IMPORTANT: Provide the content of the response (improvements and keywords) in the following language: ${locale === 'ar' ? 'Arabic' : locale === 'fr' ? 'French' : 'English'}.
-              
-              Return the response in JSON format with the following structure:
-              {
-                "improvements": ["suggestion 1", "suggestion 2"],
-                "keywords": ["keyword 1", "keyword 2"]
-              }
-
-              CV DATA:
-              ${JSON.stringify(data)}
-              
-              JOB DESCRIPTION:
-              ${jobDescription}
-            `
-          }
-        ],
-        responseFormat: { type: "json_object" }
-      });
-
-      if (response.choices && response.choices.length > 0 && response.choices[0].message && response.choices[0].message.content) {
-        const result = JSON.parse(response.choices[0].message.content as string);
-        setAiInsights(result);
-      }
-    } catch (error) {
-      console.error('AI Analysis failed:', error);
-    } finally {
-      setIsAnalyzing(false);
+    // Update data object based on current step
+    const currentKey = steps[activeStep].key;
+    if (currentKey === 'fullName' || currentKey === 'jobTitle' || currentKey === 'summary') {
+      setData(prev => ({ ...prev, personalInfo: { ...prev.personalInfo, [currentKey]: userAnswer } }));
     }
-  };
-
-  const handlePersonalInfoChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setData(prev => ({
-      ...prev,
-      personalInfo: { ...prev.personalInfo, [name]: value }
-    }));
-  };
-
-  const handleEducationChange = (id: string, field: keyof Education, value: string) => {
-    setData(prev => ({
-      ...prev,
-      education: prev.education.map(edu => edu.id === id ? { ...edu, [field]: value } : edu)
-    }));
-  };
-
-  const addEducation = () => {
-    setData(prev => ({
-      ...prev,
-      education: [...prev.education, { id: Math.random().toString(), school: '', degree: '', date: '' }]
-    }));
-  };
-
-  const removeEducation = (id: string) => {
-    setData(prev => ({
-      ...prev,
-      education: prev.education.filter(edu => edu.id !== id)
-    }));
-  };
-
-  const handleExperienceChange = (id: string, field: keyof Experience, value: string) => {
-    setData(prev => ({
-      ...prev,
-      experience: prev.experience.map(exp => exp.id === id ? { ...exp, [field]: value } : exp)
-    }));
-  };
-
-  const addExperience = () => {
-    setData(prev => ({
-      ...prev,
-      experience: [...prev.experience, { id: Math.random().toString(), company: '', role: '', date: '', description: '' }]
-    }));
-  };
-
-  const removeExperience = (id: string) => {
-    setData(prev => ({
-      ...prev,
-      experience: prev.experience.filter(exp => exp.id !== id)
-    }));
-  };
-
-  const downloadPDF = async () => {
-    if (!cvRef.current) return;
-    setIsGenerating(true);
     
-    try {
-      const canvas = await html2canvas(cvRef.current, {
-        scale: 2,
-        useCORS: true,
-        logging: false,
-        backgroundColor: '#ffffff'
-      });
-      
-      const imgData = canvas.toDataURL('image/png');
-      const pdf = new jsPDF('p', 'mm', 'a4');
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
-      
-      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
-      pdf.save(`CV_${data.personalInfo.fullName.replace(/\s+/g, '_') || 'Builder'}.pdf`);
-    } catch (error) {
-      console.error('Error generating PDF:', error);
-    } finally {
-      setIsGenerating(false);
+    // Simple logic to move to next step or finish
+    if (activeStep < steps.length - 1) {
+      setActiveStep(prev => prev + 1);
+      setMessages(prev => [...prev, { role: 'assistant', content: steps[activeStep + 1].question }]);
+    } else {
+      setIsTyping(false);
+      // Finalize and show preview
+      setActiveTab('preview');
     }
+    setIsTyping(false);
   };
 
   return (
@@ -214,40 +105,55 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
 
       <section className="pt-16 pb-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-6">
-            <div>
-              <Link 
-                href="/category/work-career" 
-                className="inline-flex items-center gap-2 text-sm font-bold text-brand-500 mb-4 hover:text-brand-950 transition-colors"
-              >
-                <ArrowLeft className="w-4 h-4 rtl:rotate-180" /> {t('Common.backToHome')}
-              </Link>
-              <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-950 tracking-tighter">
-                {t('CVMaker.title')}
-              </h1>
-              <p className="text-brand-800/60 mt-2 font-medium max-w-xl text-lg leading-relaxed">
-                {t('CVMaker.description')}
-              </p>
-            </div>
-            
-            <div className="flex items-center gap-3 bg-white p-1.5 rounded-2xl border border-brand-200 shadow-sm md:hidden">
-              <button 
-                onClick={() => setActiveTab('form')}
-                className={`flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-black text-xs transition-all ${activeTab === 'form' ? 'bg-brand-950 text-white shadow-lg' : 'text-brand-400'}`}
-              >
-                <PenTool className="w-4 h-4" /> {t('CVMaker.preview').split(' ')[0]}
-              </button>
-              <button 
-                onClick={() => setActiveTab('preview')}
-                className={`flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-black text-xs transition-all ${activeTab === 'preview' ? 'bg-brand-950 text-white shadow-lg' : 'text-brand-400'}`}
-              >
-                <Eye className="w-4 h-4" /> {t('CVMaker.preview')}
-              </button>
-            </div>
+          <div className="mb-8">
+            <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-950 tracking-tighter">
+              {t('CVMaker.title')}
+            </h1>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            {/* Form Section */}
+          {activeTab === 'form' ? (
+            <div className="bg-white p-8 rounded-[2.5rem] border border-brand-200 shadow-xl">
+              <div className="space-y-6 mb-8 max-h-[500px] overflow-y-auto">
+                {messages.map((m, i) => (
+                  <div key={i} className={`p-4 rounded-2xl ${m.role === 'assistant' ? 'bg-brand-50' : 'bg-brand-950 text-white ml-auto max-w-[80%]'}`}>
+                    {m.content}
+                  </div>
+                ))}
+                {isTyping && <div className="p-4 bg-brand-50 rounded-2xl">...</div>}
+              </div>
+              <form onSubmit={(e) => {
+                e.preventDefault();
+                const formData = new FormData(e.currentTarget);
+                const answer = formData.get('answer') as string;
+                if (answer) {
+                  handleSendMessage(answer);
+                  e.currentTarget.reset();
+                }
+              }}>
+                <input name="answer" className="w-full p-4 rounded-xl border border-brand-200" placeholder="Type your answer..." />
+              </form>
+            </div>
+          ) : (
+            <div ref={cvRef} className="bg-white p-16 rounded-xl border border-brand-200">
+              <h1 className="text-3xl font-bold">{data.personalInfo.fullName}</h1>
+              <p>{data.personalInfo.jobTitle}</p>
+              <div className="mt-8">
+                <h2 className="text-xl font-bold">Professional Summary</h2>
+                <p>{data.personalInfo.summary}</p>
+              </div>
+              {/* ... (rest of the PDF preview rendering) */}
+              <button onClick={downloadPDF} className="mt-8 px-6 py-3 bg-brand-950 text-white rounded-xl">
+                {t('CVMaker.download')}
+              </button>
+            </div>
+          )}
+        </div>
+      </section>
+      
+      <Footer />
+    </main>
+  );
+
             <div className={`lg:col-span-7 space-y-8 ${activeTab === 'preview' ? 'hidden lg:block' : 'block'}`}>
               
               {/* Personal Info */}
