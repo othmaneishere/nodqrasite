@@ -83,22 +83,8 @@
       "button": "Résumé Intelligent",
       "analyzing": "Analyse...",
       "clear": "Effacer l'assistant"
+    }
     },
-    "guidePage": {
-      "overview": "Aperçu",
-      "updatedRecently": "Mis à jour récemment",
-      "jobOffersTitle": "Dernières Offres d'Emploi",
-      "jobOffersSub": "Offres en direct de Alwadifa-Maroc",
-      "publicSector": "Secteur Public",
-      "publicSectorDesc": "Consultez les derniers concours de la fonction publique au Maroc.",
-      "privateSector": "Secteur Privé",
-      "privateSectorDesc": "Offres d'emploi pour les cadres dans le secteur privé.",
-      "viewOnAlwadifa": "Voir sur Alwadifa",
-      "allOffresAlwadifa": "Toutes les offres sur Alwadifa-Maroc",
-      "practicalTip": "Conseil Pratique",
-      "practicalTipDesc": "Gardez toujours un scan numérique de votre CIN et de vos documents importants sur votre téléphone. Des applications comme Google Drive sont vos meilleures alliées lorsque vous êtes dans une administration et qu'on vous demande une copie que vous avez oubliée."
-    },
-    "categoryPage": {
       "catalog": "Catalogue",
       "title": "Tous les guides essentiels pour <span class=\"text-brand-600\">votre succès.</span>",
       "subtitle": "Une sélection rigoureuse de guides pratiques mis à jour régulièrement selon le contexte marocain."

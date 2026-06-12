@@ -288,24 +288,6 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
                   </div>
                 </section>
               )}
-
-              {/* Contribution/Tip Section */}
-              <section className="mt-20 pt-12 border-t border-brand-100">
-                <div className="bg-brand-950 text-white p-10 rounded-[2.5rem] relative overflow-hidden shadow-2xl">
-                  <div className="relative z-10">
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 rounded-2xl bg-brand-800 flex items-center justify-center">
-                        <Lightbulb className="w-7 h-7 text-brand-400" />
-                      </div>
-                      <h3 className="text-2xl font-display font-bold m-0 tracking-tight">{t('Common.guidePage.practicalTip')}</h3>
-                    </div>
-                    <p className="text-brand-200 text-xl leading-relaxed mb-0 font-medium">
-                      {t('Common.guidePage.practicalTipDesc')}
-                    </p>
-                  </div>
-                  <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-brand-800/20 rounded-full blur-[100px] pointer-events-none" />
-                </div>
-              </section>
               </motion.div>
             </div>
 

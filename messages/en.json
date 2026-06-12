@@ -77,26 +77,12 @@
     "minRead": "{minutes} min read",
     "exploreOther": "Explore other categories",
     "exploreOtherDesc": "There is so much more to learn about adulting in Morocco.",
-    "home": "Home",
     "smartAssistant": {
       "title": "Mistral AI Assistant",
       "button": "Get Smart Summary",
       "analyzing": "Analyzing...",
       "clear": "Clear Assistant"
-    },
-    "guidePage": {
-      "overview": "Overview",
-      "updatedRecently": "Updated recently",
-      "jobOffersTitle": "Latest Job Offers",
-      "jobOffersSub": "Live offers from Alwadifa-Maroc",
-      "publicSector": "Public Sector",
-      "publicSectorDesc": "Check the latest public service competitions in Morocco.",
-      "privateSector": "Private Sector",
-      "privateSectorDesc": "Job offers for professionals in the private sector.",
-      "viewOnAlwadifa": "View on Alwadifa",
-      "allOffresAlwadifa": "All offers on Alwadifa-Maroc",
-      "practicalTip": "Practical Tip",
-      "practicalTipDesc": "Always keep a digital scan of your CIN and important documents on your phone. Apps like Google Drive are your best allies when you're at an administration and they ask for a copy you forgot."
+    }
     },
     "categoryPage": {
       "catalog": "Catalog",
