@@ -41,10 +41,11 @@ export default function Footer() {
               {[
                 { name: t('work'), href: '/category/work-career' },
                 { name: t('admin'), href: '/category/administration' },
+                { name: t('finance'), href: '/category/money-finance' },
                 { name: t('study'), href: '/category/study-skills' },
-                { name: 'Finance', href: '/category/money-finance' },
-                { name: 'Digital', href: '/category/digital-life' },
-                { name: 'Family', href: '/category/relationships-family' }
+                { name: t('digital'), href: '/category/digital-life' },
+                { name: t('emotions'), href: '/category/mindset-growth' },
+                { name: t('relationships'), href: '/category/relationships' }
               ].map((link) => (
                 <li key={link.name}>
                   <Link href={link.href} className="text-brand-300 hover:text-white transition-colors flex items-center justify-between group">

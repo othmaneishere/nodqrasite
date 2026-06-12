@@ -104,14 +104,12 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
           <div className="mt-20 mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6 border-b-2 border-brand-100 pb-8">
             <div className="max-w-xl">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-950 text-white text-[10px] font-black uppercase tracking-widest mb-4">
-                <LayoutGrid className="w-3 h-3" /> Catalog
+                <LayoutGrid className="w-3 h-3" /> {t('Common.categoryPage.catalog')}
               </div>
-              <h2 className="text-3xl font-display font-bold text-brand-950 tracking-tight">
-                Tous les guides essentiels pour <span className="text-brand-600">votre succès.</span>
-              </h2>
+              <h2 className="text-3xl font-display font-bold text-brand-950 tracking-tight" dangerouslySetInnerHTML={{ __html: t.raw('Common.categoryPage.title') }} />
             </div>
             <div className="text-right rtl:text-left text-sm font-bold text-brand-500 max-w-xs">
-              Une sélection rigoureuse de guides pratiques mis à jour mensuellement selon le contexte marocain.
+              {t('Common.categoryPage.subtitle')}
             </div>
           </div>
 

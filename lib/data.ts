@@ -47,6 +47,13 @@ export const categories: Category[] = [
         description: '',
         icon: BookOpen,
         content: ''
+      },
+      {
+        id: 'anapec-programs',
+        title: '',
+        description: '',
+        icon: CheckCircle2,
+        content: ''
       }
     ]
   },
@@ -59,31 +66,17 @@ export const categories: Category[] = [
     color: 'bg-blue-50 text-blue-700 border-blue-200',
     guides: [
       {
+        id: 'idarti-guide',
+        title: '',
+        description: '',
+        icon: Globe,
+        content: ''
+      },
+      {
         id: 'cnss-guide',
         title: '',
         description: '',
-        icon: CheckCircle2,
-        content: ''
-      },
-      {
-        id: 'bank-account',
-        title: '',
-        description: '',
-        icon: CreditCard,
-        content: ''
-      },
-      {
-        id: 'read-contract',
-        title: '',
-        description: '',
-        icon: FileSignature,
-        content: ''
-      },
-      {
-        id: 'visa-basics',
-        title: '',
-        description: '',
-        icon: Plane,
+        icon: Shield,
         content: ''
       },
       {
@@ -94,72 +87,79 @@ export const categories: Category[] = [
         content: ''
       },
       {
-        id: 'tgr-guide',
+        id: 'bank-account',
+        title: '',
+        description: '',
+        icon: CreditCard,
+        content: ''
+      },
+      {
+        id: 'visa-basics',
+        title: '',
+        description: '',
+        icon: Plane,
+        content: ''
+      }
+    ]
+  },
+  {
+    id: 'finance',
+    title: 'Money & Finance',
+    slug: 'money-finance',
+    description: '',
+    icon: Coins,
+    color: 'bg-green-50 text-green-700 border-green-200',
+    guides: [
+      {
+        id: 'payslip-taxes',
+        title: '',
+        description: '',
+        icon: FileText,
+        content: ''
+      },
+      {
+        id: 'saving-pocket-money',
+        title: '',
+        description: '',
+        icon: Target,
+        content: ''
+      },
+      {
+        id: 'code-18',
+        title: '',
+        description: '',
+        icon: CreditCard,
+        content: ''
+      }
+    ]
+  },
+  {
+    id: 'study',
+    title: 'Study & Skills',
+    slug: 'study-skills',
+    description: '',
+    icon: GraduationCap,
+    color: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    guides: [
+      {
+        id: 'minhaty-scholarships',
         title: '',
         description: '',
         icon: Landmark,
         content: ''
-      }
-    ]
-  },
-  {
-    id: 'emotions',
-    title: 'Life & Emotions',
-    slug: 'life-emotions',
-    description: '',
-    icon: Brain,
-    color: 'bg-rose-50 text-rose-700 border-rose-200',
-    guides: [
+      },
       {
-        id: 'stress-management',
+        id: 'study-efficiently',
         title: '',
         description: '',
-        icon: Sparkles,
+        icon: BookOpen,
         content: ''
       },
       {
-        id: 'discipline',
+        id: 'digital-skills',
         title: '',
         description: '',
-        icon: Zap,
-        content: ''
-      },
-      {
-        id: 'self-confidence',
-        title: '',
-        description: '',
-        icon: Heart,
-        content: ''
-      },
-      {
-        id: 'mental-health-awareness',
-        title: '',
-        description: '',
-        icon: Brain,
-        content: ''
-      }
-    ]
-  },
-  {
-    id: 'relationships',
-    title: 'Relationships & Family',
-    slug: 'relationships-family',
-    description: '',
-    icon: Users,
-    color: 'bg-purple-50 text-purple-700 border-purple-200',
-    guides: [
-      {
-        id: 'parent-communication',
-        title: '',
-        description: '',
-        icon: MessageCircle,
-        content: ''
-      },
-      {
-        id: 'peer-pressure',
-        title: '',
-        description: '',
-        icon: Heart,
+        icon: Laptop,
         content: ''
       }
     ]
@@ -189,49 +189,56 @@ export const categories: Category[] = [
     ]
   },
   {
-    id: 'finance',
-    title: 'Money & Finance',
-    slug: 'money-finance',
+    id: 'emotions',
+    title: 'Mindset & Growth',
+    slug: 'mindset-growth',
     description: '',
-    icon: Coins,
-    color: 'bg-green-50 text-green-700 border-green-200',
+    icon: Brain,
+    color: 'bg-rose-50 text-rose-700 border-rose-200',
     guides: [
       {
-        id: 'saving-pocket-money',
+        id: 'discipline',
         title: '',
         description: '',
-        icon: Target,
+        icon: Zap,
         content: ''
       },
       {
-        id: 'code-18',
+        id: 'stress-management',
         title: '',
         description: '',
-        icon: CreditCard,
+        icon: Sparkles,
+        content: ''
+      },
+      {
+        id: 'self-confidence',
+        title: '',
+        description: '',
+        icon: Heart,
         content: ''
       }
     ]
   },
   {
-    id: 'study',
-    title: 'Study & Skills',
-    slug: 'study-skills',
+    id: 'relationships',
+    title: 'Relationships',
+    slug: 'relationships',
     description: '',
-    icon: GraduationCap,
-    color: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    icon: Users,
+    color: 'bg-purple-50 text-purple-700 border-purple-200',
     guides: [
       {
-        id: 'study-efficiently',
+        id: 'parent-communication',
         title: '',
         description: '',
-        icon: BookOpen,
+        icon: MessageCircle,
         content: ''
       },
       {
-        id: 'digital-skills',
+        id: 'peer-pressure',
         title: '',
         description: '',
-        icon: Laptop,
+        icon: Heart,
         content: ''
       }
     ]
