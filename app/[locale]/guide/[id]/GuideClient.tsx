@@ -3,7 +3,7 @@ export const dynamic = 'force-dynamic';
 
 import { use } from 'react';
 import { motion, useScroll, useSpring } from 'motion/react';
-import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, ArrowRight, FileText, ListRestart, ExternalLink, Briefcase } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, ArrowRight, FileText, ListRestart, ExternalLink, Briefcase, Users } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { categories, Guide, Category } from '@/lib/data';
