@@ -59,32 +59,19 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h4 className="text-sm font-black uppercase tracking-widest text-brand-500 mb-8">{t('company')}</h4>
             <ul className="space-y-4">
-              {[t('about'), t('mission'), t('contact'), t('join')].map((link) => (
-                <li key={link}>
-                  <Link href="#" className="text-brand-300 hover:text-white transition-colors flex items-center justify-between group">
-                    {link} <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-all rtl:rotate-270" />
+              {[
+                { name: t('about'), href: '#' },
+                { name: t('mission'), href: '#' },
+                { name: t('contact'), href: '#' },
+                { name: t('join'), href: '/#build-plan' }
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link href={link.href} className="text-brand-300 hover:text-white transition-colors flex items-center justify-between group">
+                    {link.name} <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-all rtl:rotate-270" />
                   </Link>
                 </li>
               ))}
             </ul>
-          </div>
-
-          {/* Contact Column */}
-          <div className="lg:col-span-4">
-            <div className="p-8 rounded-[2rem] bg-brand-900/50 border border-brand-800">
-              <h4 className="text-xl font-bold mb-6">{t('stayUpdated')}</h4>
-              <p className="text-brand-400 text-sm mb-6">{t('newsletterDesc')}</p>
-              <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
-                <input 
-                  type="email" 
-                  placeholder={t('emailPlaceholder')} 
-                  className="flex-1 bg-brand-950 border border-brand-800 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-500 transition-colors"
-                />
-                <button className="px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors font-bold text-sm">
-                  {t('joinButton')}
-                </button>
-              </form>
-            </div>
           </div>
         </div>
 

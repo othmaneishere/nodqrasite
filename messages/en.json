@@ -69,11 +69,7 @@
     "about": "About",
     "mission": "Mission",
     "contact": "Contact",
-    "join": "Join Us",
-    "stayUpdated": "Stay Updated",
-    "newsletterDesc": "Get the latest guides and tips delivered to your inbox.",
-    "emailPlaceholder": "Your email address",
-    "joinButton": "Join"
+    "join": "Join Us"
   },
   "Common": {
     "readGuide": "Read Guide",

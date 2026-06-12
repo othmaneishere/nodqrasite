@@ -69,11 +69,7 @@
     "about": "À propos",
     "mission": "Mission",
     "contact": "Contact",
-    "join": "Nous rejoindre",
-    "stayUpdated": "Restez informé",
-    "newsletterDesc": "Recevez les derniers guides et conseils dans votre boîte de réception.",
-    "emailPlaceholder": "Votre adresse e-mail",
-    "joinButton": "Rejoindre"
+    "join": "Nous rejoindre"
   },
   "Common": {
     "readGuide": "Lire le guide",
