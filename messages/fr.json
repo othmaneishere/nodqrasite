@@ -83,8 +83,8 @@
       "button": "Résumé Intelligent",
       "analyzing": "Analyse...",
       "clear": "Effacer l'assistant"
-    }
     },
+    "categoryPage": {
       "catalog": "Catalogue",
       "title": "Tous les guides essentiels pour <span class=\"text-brand-600\">votre succès.</span>",
       "subtitle": "Une sélection rigoureuse de guides pratiques mis à jour régulièrement selon le contexte marocain."
