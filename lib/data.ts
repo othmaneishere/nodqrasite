@@ -85,6 +85,20 @@ export const categories: Category[] = [
         description: '',
         icon: Plane,
         content: ''
+      },
+      {
+        id: 'auto-entrepreneur',
+        title: '',
+        description: '',
+        icon: Briefcase,
+        content: ''
+      },
+      {
+        id: 'tgr-guide',
+        title: '',
+        description: '',
+        icon: Landmark,
+        content: ''
       }
     ]
   },
