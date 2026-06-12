@@ -83,9 +83,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-import SmoothScroll from '@/components/SmoothScroll';
-import PageTransition from '@/components/PageTransition';
-
 export default async function RootLayout({
   children,
   params
@@ -110,11 +107,7 @@ export default async function RootLayout({
     <html lang={locale} dir={direction} className={`${inter.variable} ${outfit.variable} ${cairo.variable}`}>
       <body className="bg-[#FDFCFB] text-slate-900 antialiased font-sans" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-          <SmoothScroll>
-            <PageTransition>
-              {children}
-            </PageTransition>
-          </SmoothScroll>
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>
