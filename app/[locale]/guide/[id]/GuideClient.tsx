@@ -3,7 +3,7 @@ export const dynamic = 'force-dynamic';
 
 import { use } from 'react';
 import { motion, useScroll, useSpring } from 'motion/react';
-import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, Users, ArrowRight, FileText, Sparkles, ListRestart, ExternalLink, Briefcase } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, ArrowRight, FileText, ListRestart, ExternalLink, Briefcase } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { categories, Guide, Category } from '@/lib/data';
@@ -164,9 +164,9 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
               </motion.div>
               </header>
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-              {/* Main Content */}
-              <div className="lg:col-span-9 space-y-12">
+              <div className="grid grid-cols-1 lg:grid-cols-1 gap-16 items-start">
+                {/* Main Content */}
+                <div className="space-y-12">
               <motion.div 
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -290,60 +290,6 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
               )}
               </motion.div>
             </div>
-
-            {/* Sidebar */}
-            <aside className="lg:col-span-3 sticky top-12 space-y-10">
-              {/* Mistral Assistant */}
-              <motion.div 
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.6 }}
-                className="bg-brand-950 p-8 rounded-[2.5rem] text-white shadow-2xl overflow-hidden relative group"
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-brand-600/20 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl" />
-                
-                <div className="relative z-10">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-10 h-10 rounded-xl bg-brand-800 flex items-center justify-center text-brand-300">
-                      <Sparkles className="w-5 h-5 animate-pulse" />
-                    </div>
-                    <h4 className="text-sm font-bold tracking-tight">{t('Common.smartAssistant.title')}</h4>
-                  </div>
-
-                  <div className="space-y-4">
-                    {!aiResponse ? (
-                      <button 
-                        onClick={getSmartSummary}
-                        disabled={isAnalyzing}
-                        className="w-full py-4 rounded-xl bg-white text-brand-950 font-black text-xs shadow-xl flex items-center justify-center gap-2 hover:bg-brand-50 transition-all disabled:opacity-50"
-                      >
-                        {isAnalyzing ? (
-                          <div className="w-4 h-4 border-2 border-brand-950/30 border-t-brand-950 rounded-full animate-spin" />
-                        ) : (
-                          <Lightbulb className="w-4 h-4" />
-                        )}
-                        {isAnalyzing ? t('Common.smartAssistant.analyzing') : t('Common.smartAssistant.button')}
-                      </button>
-                    ) : (
-                      <div className="space-y-4">
-                        <div className="p-4 rounded-2xl bg-brand-900/50 border border-brand-800">
-                          <p className="text-xs text-brand-100 leading-relaxed font-medium">
-                            {aiResponse}
-                          </p>
-                        </div>
-                        <button 
-                          onClick={() => setAiResponse('')}
-                          className="text-[10px] uppercase tracking-widest font-black text-brand-400 hover:text-white transition-colors flex items-center gap-2"
-                        >
-                          <ListRestart className="w-3 h-3" /> {t('Common.smartAssistant.clear')}
-                        </button>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </motion.div>
-
-            </aside>
           </div>
 
           {/* Navigation Links */}
