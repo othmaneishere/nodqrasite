@@ -3,10 +3,10 @@ export const dynamic = 'force-dynamic';
 
 import { use } from 'react';
 import { motion, useScroll, useSpring } from 'motion/react';
-import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, Users, ArrowRight, FileText } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, Users, ArrowRight, FileText, Sparkles, ListRestart } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { categories } from '@/lib/data';
+import { categories, Guide, Category } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
@@ -19,15 +19,35 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
   const { id } = use(params);
   const t = useTranslations();
   const locale = useLocale();
+
+  let guide: Guide | null = null;
+  let category: Category | null = null;
+  
+  for (const cat of categories) {
+    const found = cat.guides.find(g => g.id === id);
+    if (found) {
+      guide = found;
+      category = cat;
+      break;
+    }
+  }
+
+  if (!guide || !category) {
+    notFound();
+  }
+
+  const catT = useTranslations(`Categories.${category.id}`);
+  const guideT = useTranslations(`Categories.${category.id}.guides`);
+
   const [aiResponse, setAiResponse] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const getSmartSummary = async () => {
-    if (isAnalyzing) return;
+    if (isAnalyzing || !guide) return;
     setIsAnalyzing(true);
     try {
       const client = new Mistral({ apiKey: process.env.NEXT_PUBLIC_MISTRAL_API_KEY });
-      const guideContent = guideT.raw(`${guide?.id}-content`);
+      const guideContent = guideT.raw(`${guide.id}-content`);
       
       const response = await client.chat.complete({
         model: "mistral-small-latest",
@@ -60,25 +80,7 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
     restDelta: 0.001
   });
   
-  let guide = null;
-  let category = null;
-  
-  for (const cat of categories) {
-    const found = cat.guides.find(g => g.id === id);
-    if (found) {
-      guide = found;
-      category = cat;
-      break;
-    }
-  }
-
-  if (!guide || !category) {
-    notFound();
-  }
-
   const Icon = guide.icon;
-  const catT = useTranslations(`Categories.${category.id}`);
-  const guideT = useTranslations(`Categories.${category.id}.guides`);
 
   return (
     <main className="min-h-screen bg-brand-50 selection:bg-brand-950 selection:text-white">
