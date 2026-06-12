@@ -3,7 +3,7 @@ export const dynamic = 'force-dynamic';
 
 import { use } from 'react';
 import { motion, useScroll, useSpring } from 'motion/react';
-import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, Users, ArrowRight, FileText, Sparkles, ListRestart } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Share2, Printer, Bookmark, Clock, User, Info, Lightbulb, Users, ArrowRight, FileText, Sparkles, ListRestart, ExternalLink, Briefcase } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { categories, Guide, Category } from '@/lib/data';
@@ -166,12 +166,12 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
             {/* Main Content */}
-            <div className="lg:col-span-8 space-y-12">
+            <div className="lg:col-span-9 space-y-12">
               <motion.div 
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
-                className="bg-white p-6 md:p-8 rounded-[2.5rem] border border-brand-200/50 shadow-2xl shadow-brand-200/40 relative overflow-hidden"
+                className="bg-white p-6 md:p-12 rounded-[2.5rem] border border-brand-200/50 shadow-2xl shadow-brand-200/40 relative overflow-hidden"
               >
                 <div className="absolute top-0 right-0 p-8 origin-center rotate-12 opacity-5 pointer-events-none">
                   <Icon className="w-48 h-48" />
@@ -230,6 +230,65 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
                   </motion.section>
                 )}
 
+                {(id === 'job-application' || category?.id === 'work') && (
+                  <section className="mt-12 p-8 rounded-[2.5rem] bg-white border-2 border-brand-100 shadow-xl overflow-hidden relative">
+                    <div className="flex items-center gap-4 mb-6">
+                      <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center">
+                        <Briefcase className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-display font-bold text-brand-950 tracking-tight">Dernières Offres d&apos;Emploi</h3>
+                        <p className="text-brand-500 text-sm font-medium">Offres en direct de Alwadifa-Maroc</p>
+                      </div>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="p-5 rounded-2xl bg-brand-50 hover:bg-brand-100 transition-all group cursor-pointer border border-brand-100">
+                        <div className="flex justify-between items-start mb-2">
+                          <h4 className="font-bold text-brand-950 text-lg">Concours Publics</h4>
+                          <span className="text-[10px] font-black uppercase tracking-widest bg-brand-200 px-2 py-1 rounded text-brand-700">Public</span>
+                        </div>
+                        <p className="text-xs text-brand-600 mb-4 font-medium">Consultez les derniers concours de la fonction publique au Maroc.</p>
+                        <a 
+                          href="https://alwadifa-maroc.com/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-brand-950 font-black text-xs hover:underline"
+                        >
+                          Voir sur Alwadifa <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
+
+                      <div className="p-5 rounded-2xl bg-brand-50 hover:bg-brand-100 transition-all group cursor-pointer border border-brand-100">
+                        <div className="flex justify-between items-start mb-2">
+                          <h4 className="font-bold text-brand-950 text-lg">Secteur Privé</h4>
+                          <span className="text-[10px] font-black uppercase tracking-widest bg-blue-100 px-2 py-1 rounded text-blue-700">Privé</span>
+                        </div>
+                        <p className="text-xs text-brand-600 mb-4 font-medium">Offres d&apos;emploi pour les cadres dans le secteur privé.</p>
+                        <a 
+                          href="https://alwadifa-maroc.com/category/15.html" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-brand-950 font-black text-xs hover:underline"
+                        >
+                          Voir sur Alwadifa <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div className="mt-8 text-center">
+                      <a 
+                        href="https://alwadifa-maroc.com/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-brand-950 text-white px-6 py-3 rounded-xl font-bold hover:bg-brand-800 transition-all shadow-lg text-sm"
+                      >
+                        Toutes les offres sur Alwadifa-Maroc <ExternalLink className="w-4 h-4" />
+                      </a>
+                    </div>
+                  </section>
+                )}
+
                 {/* Contribution/Tip Section */}
                 <section className="mt-20 pt-12 border-t border-brand-100">
                   <div className="bg-brand-950 text-white p-10 rounded-[2.5rem] relative overflow-hidden shadow-2xl">
@@ -253,31 +312,7 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
             </div>
 
             {/* Sidebar */}
-            <aside className="lg:col-span-4 sticky top-12 space-y-10">
-              <motion.div 
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.5 }}
-                className="bg-white p-8 rounded-[2.5rem] border border-brand-200/50 shadow-xl overflow-hidden relative"
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-brand-50 rounded-full -translate-y-1/2 translate-x-1/2" />
-                
-                <h4 className="text-xs uppercase tracking-[0.3em] font-black text-brand-400 mb-8">Actions Rapides</h4>
-                <div className="space-y-4 relative z-10">
-                  <button className="w-full flex items-center justify-between p-5 rounded-2xl bg-brand-50 hover:bg-brand-100 transition-all font-black text-brand-800 text-sm group">
-                    <span className="flex items-center gap-4"><Share2 className="w-5 h-5 text-brand-400" /> Partager ce guide</span>
-                    <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform rtl:rotate-180" />
-                  </button>
-                  <button className="w-full flex items-center justify-between p-5 rounded-2xl bg-brand-50 hover:bg-brand-100 transition-all font-black text-brand-800 text-sm group">
-                    <span className="flex items-center gap-4"><Printer className="w-5 h-5 text-brand-400" /> Version Imprimable</span>
-                    <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform rtl:rotate-180" />
-                  </button>
-                  <button className="w-full flex items-center justify-center gap-4 p-6 rounded-2xl bg-brand-950 text-white hover:bg-brand-800 hover:-translate-y-1 transition-all font-black shadow-2xl shadow-brand-950/40 text-base">
-                    <Bookmark className="w-5 h-5" /> Enregistrer dans mon plan
-                  </button>
-                </div>
-              </motion.div>
-
+            <aside className="lg:col-span-3 sticky top-12 space-y-10">
               {/* Mistral Assistant */}
               <motion.div 
                 initial={{ opacity: 0, scale: 0.95 }}
