@@ -72,7 +72,7 @@ export default function Navbar() {
                 {t('categories')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-600 transition-all group-hover:w-full" />
               </Link>
-              <Link href="/#about" className="text-sm font-bold text-brand-800 hover:text-brand-950 transition-all relative group">
+              <Link href="/about" className="text-sm font-bold text-brand-800 hover:text-brand-950 transition-all relative group">
                 {t('about')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-600 transition-all group-hover:w-full" />
               </Link>
@@ -135,7 +135,7 @@ export default function Navbar() {
           <Link href="/#categories" onClick={() => setIsOpen(false)} className="text-xl font-bold text-brand-800 hover:text-brand-950">
             {t('categories')}
           </Link>
-          <Link href="/#about" onClick={() => setIsOpen(false)} className="text-xl font-bold text-brand-800 hover:text-brand-950">
+          <Link href="/about" onClick={() => setIsOpen(false)} className="text-xl font-bold text-brand-800 hover:text-brand-950">
             {t('about')}
           </Link>
           

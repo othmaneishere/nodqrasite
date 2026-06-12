@@ -60,7 +60,7 @@ export default function Footer() {
             <h4 className="text-sm font-black uppercase tracking-widest text-brand-500 mb-8">{t('company')}</h4>
             <ul className="space-y-4">
               {[
-                { name: t('about'), href: '#' },
+                { name: t('about'), href: '/about' },
                 { name: t('mission'), href: '#' },
                 { name: t('contact'), href: '#' },
                 { name: t('join'), href: '/#build-plan' }
