@@ -160,8 +160,8 @@
         "payslip-taxes": "Comprendre sa Fiche de Paie",
         "payslip-taxes-desc": "Salaire Brut vs Net : où part votre argent ?",
         "payslip-taxes-content": "### 1. Brut vs Net\n* **Brut :** Le montant avant les prélèvements.\n* **Net :** Ce qui arrive réellement sur votre compte.\n\n### 2. Les Prélèvements Communs\n* **CNSS :** Environ 4,48% pour la sécurité sociale.\n* **AMO :** Environ 2,26% pour l'assurance maladie.\n* **IR (Impôt sur le Revenu) :** Taxe sur le salaire, progressive selon vos revenus.\n\n### 3. Les Indemnités\nLes primes de transport ou de panier sont souvent \"Nettes\", elles ne sont pas taxées comme le salaire de base.\n\n### 4. TGR (Impôts)\nSi vous avez une voiture ou un appart, vous payerez des taxes à la TGR. Payables facilement sur [www.tgr.gov.ma](https://www.tgr.gov.ma).",
-        "budgeting-basics": "Budget pour Jeunes Professionnels",
-        "budgeting-basics-desc": "Méthodes de gestion de budget et applications.",
+        "budgeting-basics": "Épargner au Maroc",
+        "budgeting-basics-desc": "Habitudes pratiques pour se constituer un capital.",
         "budgeting-basics-content": "### 1. La Règle 50/30/20\nUtilisez-la pour diviser votre salaire mensuel.\n\n### 2. Outils Digitaux\nUtilisez des applications comme \"Money Manager\" ou un simple tableau Excel pour suivre vos dépenses pendant 1 mois.\n\n### 3. La Méthode des Enveloppes\nSi vous avez du mal avec l'argent liquide, utilisez la méthode des enveloppes pour différentes catégories (Transport, Nourriture, Loisirs).\n\n### 4. Objectifs à long terme\nFixez un objectif d'épargne (ex. 6 mois de dépenses) et tenez-vous-y.",
         "code-18": "Code 18 : Premier Compte",
         "code-18-desc": "Le compte bancaire pour mineurs sous contrôle parental.",
@@ -223,6 +223,12 @@
         "conflict-resolution-content": "### 1. Calme\nSi vous êtes en colère, ne parlez pas. Prenez un moment pour vous calmer d'abord.\n\n### 2. Écouter\nÉcoutez leur perspective. Ils pourraient avoir un point de vue que vous avez manqué.\n\n### 3. Exprimer\nExprimez vos sentiments et vos besoins clairement avec le \"Je\".\n\n### 4. Compromis\nLa plupart des conflits se résolvent si les deux parties sont prêtes à trouver un terrain d'entente."
       }
     }
+  },
+  "About": {
+    "title": "À propos de NodQra",
+    "story": "NodQra est né d'un constat simple : il y a un fossé important entre les connaissances théoriques enseignées à l'école et les compétences pratiques nécessaires pour naviguer dans la vie d'adulte, surtout dans le contexte unique du Maroc. Nous sommes là pour combler ce fossé en fournissant des guides pratiques et vérifiés qui permettent aux jeunes Marocains de prendre le contrôle de leur avenir, de leur carrière aux tâches administratives en passant par leur développement personnel.",
+    "devTitle": "Par Othmane A.",
+    "devStory": "Bonjour ! Je suis Othmane A., le développeur derrière NodQra. J'ai construit cette plateforme parce que je crois qu'avec les bons outils, la jeunesse marocaine peut accomplir des choses incroyables. NodQra est ma contribution pour fournir cette feuille de route, simplifier le complexe et démocratiser les connaissances essentielles nécessaires pour prospérer dans notre société aujourd'hui."
   },
   "CVMaker": {
     "title": "Créateur de CV Facile",

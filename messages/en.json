@@ -224,6 +224,12 @@
       }
     }
   },
+  "About": {
+    "title": "About NodQra",
+    "story": "NodQra was born out of a simple observation: there's a significant gap between the theoretical knowledge taught in schools and the practical skills required to navigate adult life, especially in the unique context of Morocco. We are here to bridge that gap by providing verified, practical guides that empower young Moroccans to take control of their future, from their career to their administrative tasks and personal growth.",
+    "devTitle": "By Othmane A.",
+    "devStory": "Hello! I'm Othmane A., the developer behind NodQra. I built this platform because I believe that with the right tools, Moroccan youth can achieve incredible things. NodQra is my contribution to providing that roadmap, simplifying the complex and democratizing the essential knowledge needed to thrive in our society today."
+  },
   "CVMaker": {
     "title": "Easy CV Builder",
     "description": "Create a professional CV in minutes. Fill in your details and download as a PDF.",
