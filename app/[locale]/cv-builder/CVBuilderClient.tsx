@@ -149,23 +149,11 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
           )}
         </div>
       </section>
-      
       <Footer />
-    </main>
-  );
+      </main>
+      );
+      }
 
-            <div className={`lg:col-span-7 space-y-8 ${activeTab === 'preview' ? 'hidden lg:block' : 'block'}`}>
-              
-              {/* Personal Info */}
-              <div className="bg-white p-6 md:p-8 rounded-[2.5rem] border border-brand-200/50 shadow-xl">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center">
-                    <User className="w-6 h-6" />
-                  </div>
-                  <h2 className="text-2xl font-display font-bold text-brand-950 tracking-tight">{t('CVMaker.personalInfo')}</h2>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-xs font-black uppercase tracking-widest text-brand-400 ml-1">{t('CVMaker.fullName')}</label>
                     <input 
