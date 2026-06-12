@@ -43,7 +43,7 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
         ]
       });
 
-      if (response.choices && response.choices[0].message.content) {
+      if (response.choices && response.choices.length > 0 && response.choices[0].message.content) {
         setAiResponse(response.choices[0].message.content as string);
       }
     } catch (error) {

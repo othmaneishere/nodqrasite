@@ -121,7 +121,7 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
         responseFormat: { type: "json_object" }
       });
 
-      if (response.choices && response.choices[0].message.content) {
+      if (response.choices && response.choices.length > 0 && response.choices[0].message.content) {
         const result = JSON.parse(response.choices[0].message.content as string);
         setAiInsights(result);
       }
