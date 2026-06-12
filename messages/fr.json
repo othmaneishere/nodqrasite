@@ -78,7 +78,13 @@
     "minRead": "{minutes} min de lecture",
     "exploreOther": "Explorer d'autres catégories",
     "exploreOtherDesc": "Il y a tellement plus à apprendre sur la vie d'adulte au Maroc.",
-    "home": "Accueil"
+    "home": "Accueil",
+    "smartAssistant": {
+      "title": "Assistant Mistral AI",
+      "button": "Résumé Intelligent",
+      "analyzing": "Analyse...",
+      "clear": "Effacer l'assistant"
+    }
   },
   "Categories": {
     "work": {

@@ -8,7 +8,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { categories } from '@/lib/data';
 import { notFound } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -18,6 +18,7 @@ import { useState } from 'react';
 export default function GuidePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
   const t = useTranslations();
+  const locale = useLocale();
   const [aiResponse, setAiResponse] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
@@ -33,7 +34,11 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
         messages: [
           {
             role: "user",
-            content: `Provide a very brief (2-3 sentences) smart summary or key takeaway for the following guide content: \n\n ${guideContent}`
+            content: `Provide a very brief (2-3 sentences) smart summary or key takeaway for the following guide content. 
+            
+            IMPORTANT: Provide the response in the following language: ${locale === 'ar' ? 'Arabic' : locale === 'fr' ? 'French' : 'English'}.
+
+            GUIDE CONTENT: \n\n ${guideContent}`
           }
         ]
       });
@@ -285,7 +290,7 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
                     <div className="w-10 h-10 rounded-xl bg-brand-800 flex items-center justify-center text-brand-300">
                       <Sparkles className="w-5 h-5 animate-pulse" />
                     </div>
-                    <h4 className="text-sm font-bold tracking-tight">Mistral AI Assistant</h4>
+                    <h4 className="text-sm font-bold tracking-tight">{t('Common.smartAssistant.title')}</h4>
                   </div>
 
                   <div className="space-y-4">
@@ -300,7 +305,7 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
                         ) : (
                           <Lightbulb className="w-4 h-4" />
                         )}
-                        {isAnalyzing ? "Analyzing..." : "Get Smart Summary"}
+                        {isAnalyzing ? t('Common.smartAssistant.analyzing') : t('Common.smartAssistant.button')}
                       </button>
                     ) : (
                       <div className="space-y-4">
@@ -313,7 +318,7 @@ export default function GuidePage({ params }: { params: Promise<{ id: string }> 
                           onClick={() => setAiResponse('')}
                           className="text-[10px] uppercase tracking-widest font-black text-brand-400 hover:text-white transition-colors flex items-center gap-2"
                         >
-                          <ListRestart className="w-3 h-3" /> Clear Assistant
+                          <ListRestart className="w-3 h-3" /> {t('Common.smartAssistant.clear')}
                         </button>
                       </div>
                     )}

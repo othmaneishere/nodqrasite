@@ -170,7 +170,13 @@
     "minRead": "{minutes} دقائق قراءة",
     "exploreOther": "استكشف فئات أخرى",
     "exploreOtherDesc": "هناك الكثير لتعلمه عن الحياة في المغرب.",
-    "home": "الرئيسية"
+    "home": "الرئيسية",
+    "smartAssistant": {
+      "title": "مساعد Mistral الذكي",
+      "button": "احصل على ملخص ذكي",
+      "analyzing": "جاري التحليل...",
+      "clear": "مسح المساعد"
+    }
   },
   "CVMaker": {
     "title": "صانع السيرة الذاتية السهل",

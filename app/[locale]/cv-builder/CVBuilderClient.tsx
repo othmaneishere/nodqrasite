@@ -102,6 +102,8 @@ export default function CVBuilderClient({ locale }: { locale: string }) {
               Analyze the following CV data against the target job description. 
               Provide specific suggestions for improvements and a list of key skills/keywords that are missing or should be emphasized.
               
+              IMPORTANT: Provide the content of the response (improvements and keywords) in the following language: ${locale === 'ar' ? 'Arabic' : locale === 'fr' ? 'French' : 'English'}.
+              
               Return the response in JSON format with the following structure:
               {
                 "improvements": ["suggestion 1", "suggestion 2"],

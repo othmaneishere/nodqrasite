@@ -78,7 +78,13 @@
     "minRead": "{minutes} min read",
     "exploreOther": "Explore other categories",
     "exploreOtherDesc": "There is so much more to learn about adulting in Morocco.",
-    "home": "Home"
+    "home": "Home",
+    "smartAssistant": {
+      "title": "Mistral AI Assistant",
+      "button": "Get Smart Summary",
+      "analyzing": "Analyzing...",
+      "clear": "Clear Assistant"
+    }
   },
   "Categories": {
     "work": {
